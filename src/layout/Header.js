@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-      <header className={`bg-white py-5 shadow-md sticky top-0 ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
+      <header className={`bg-white py-3 shadow-md sticky top-0 ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
         <div className='container mx-auto'>
           <nav className='flex justify-between items-center'>
             <div>
@@ -30,7 +30,7 @@ const Header = () => {
             <ul className={`flex gap-6 mobile-menu ${isMobileMenuOpen ? 'open' : 'lg:flex'}`}>
               {navLinks.map((navLink, index) => (
                 <li key={index}>
-                  <Link className='text-lg text-black font-medium' to={navLink.path}>{navLink.title}</Link>
+                  <Link className='text-lg text-[#273746] hover:text-[#FFA726] font-medium' to={navLink.path}>{navLink.title}</Link>
                 </li>
               ))}
             </ul>
