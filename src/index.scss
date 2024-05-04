@@ -6,8 +6,12 @@ body {
   font-family: "Jost", sans-serif;
 }
 
+.icon{
+  font-size: 100px;
+}
+
 @media screen and (max-width: 1024px) {
-  header .icon {
+  header .nav-icon {
     font-size: 34px;
   }
 

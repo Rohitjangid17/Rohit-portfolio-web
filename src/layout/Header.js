@@ -24,7 +24,7 @@ const Header = () => {
                 onClick={toggleMobileMenu}
                 className="text-black focus:outline-none focus:text-black"
               >
-                {isMobileMenuOpen ? (<CloseIcon className='icon' />) : (<MenuIcon className='icon' />)}
+                {isMobileMenuOpen ? (<CloseIcon className='nav-icon' />) : (<MenuIcon className='nav-icon' />)}
               </button>
             </div>
             <ul className={`flex gap-6 mobile-menu ${isMobileMenuOpen ? 'open' : 'lg:flex'}`}>
