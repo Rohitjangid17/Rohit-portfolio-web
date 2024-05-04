@@ -1,11 +1,10 @@
 import React from 'react';
+import Hero from '../components/Hero';
 
 const Work = () => {
     return (
         <>
-            <div className='container mx-auto'>
-                <h1>This is Work Experience page</h1>
-            </div>
+            <Hero title="Work Experience" description="At ABC Web Solutions since 2020, I've led frontend projects, optimized performance, and mentored junior devs." iscontent={false} />
         </>
     )
 }

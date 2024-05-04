@@ -24,16 +24,16 @@ const Footer = () => {
 
                             <ul className='flex flex-col gap-y-2'>
                                 <li>
-                                    <Link className='text-[#757575] text-base font-light'>Home</Link>
+                                    <Link to="/" className='text-[#757575] text-base font-light'>Home</Link>
                                 </li>
                                 <li>
-                                    <Link className='text-[#757575] text-base font-light'>About</Link>
+                                    <Link to="/about" className='text-[#757575] text-base font-light'>About</Link>
                                 </li>
                                 <li>
-                                    <Link className='text-[#757575] text-base font-light'>Work Experience</Link>
+                                    <Link to="/work" className='text-[#757575] text-base font-light'>Work Experience</Link>
                                 </li>
                                 <li>
-                                    <Link className='text-[#757575] text-base font-light'>Contact</Link>
+                                    <Link to="/contact" className='text-[#757575] text-base font-light'>Contact</Link>
                                 </li>
                             </ul>
                         </div>

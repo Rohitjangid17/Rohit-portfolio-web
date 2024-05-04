@@ -5,7 +5,7 @@ import ContactForm from '../components/ContactForm';
 const Contact = () => {
     return (
         <>
-            <Hero />
+            <Hero title="Contact Us" description="Test" iscontent={false} />
 
             {/* Contact section start here */}
             <section className='py-10 bg-white px-5 sm:px-0'>

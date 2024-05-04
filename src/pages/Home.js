@@ -3,43 +3,14 @@ import Hero from '../components/Hero';
 import CodeIcon from '@mui/icons-material/Code';
 import { skills } from "../constants/Constant";
 import ContactForm from '../components/ContactForm';
+import Overview from '../components/Overview';
 
 const Home = () => {
     return (
         <>
-            <Hero />
-         
+            <Hero title="Welcome to Rohit's Portfolio" description="Welcome to Rohit's PortfolioWelcome to my digital playground, where pixels and code collide. I'm a frontend developer, crafting interactive marvels from visions. With creativity and tech savvy, I design captivating interfaces. Dive into my portfolio for the ultimate fusion of design and development." iscontent={true} />
 
-            {/* Work Experience section start here */}
-            {/* <section className='py-10 bg-white px-5 sm:px-0'>
-                <div className='container mx-auto'>
-                    <div className='flex flex-col gap-y-1'>
-                        <h3 className='text-[#757575] text-sm sm:text-base'>WHAT I HAVE DONE SO FAR</h3>
-                        <h4 className='text-[#f26200] text-[34px] sm:text-[44px] font-semibold'>Work Experience</h4>
-                        <p className='text-black text-base'>I am a passionate and detail-oriented front-end developer with a strong foundation in web technologies. My journey in the world of web development has been marked by hands-on experience, creativity, and a commitment to delivering visually appealing and intuitive user interfaces. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!</p>
-                    </div>
-                    <div className='grid grid-cols-2 sm:grid-cols-2 gap-3 mt-10'>
-                        <div>
-                            <div>
-                                <h4>Software Developer</h4>
-                                <p>Durapid Technologies Pvt. Ltd - Jaipur, Rajasthan</p>
-                            </div>
-
-                            <ul>
-                                <li>Developed and maintained user interfaces using HTML5, CSS3, and JavaScript ES6.</li>
-                                <li>Developed and maintained user interfaces using HTML5, CSS3, and JavaScript ES6.</li>
-                                <li>Developed and maintained user interfaces using HTML5, CSS3, and JavaScript ES6.</li>
-                                <li>Developed and maintained user interfaces using HTML5, CSS3, and JavaScript ES6.</li>
-                            </ul>
-                        </div>
-                        <div> </div>
-                        <div>
-                            <span>Sept 2022 - Present</span>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
-            {/* Work Experience section end here */}
+            <Overview />
 
             {/* Skills section start here */}
             <section className='py-10 bg-white px-5 sm:px-0'>
@@ -110,7 +81,7 @@ const Home = () => {
                     </div>
 
                     <div className='bg-[#f5ecdb] p-4 rounded-lg mt-10'>
-                       <ContactForm />
+                        <ContactForm />
                     </div>
                 </div>
             </section>
