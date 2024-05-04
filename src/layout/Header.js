@@ -17,12 +17,12 @@ const Header = () => {
         <div className='container mx-auto'>
           <nav className='flex justify-between items-center'>
             <div>
-              <Link to="/"><h3 className='text-black text-2xl font-semibold'>ROHIT</h3></Link>
+              <Link to="/"><h3 className='text-[#f26200] text-2xl font-semibold'>ROHIT</h3></Link>
             </div>
             <div className="block lg:hidden">
               <button
                 onClick={toggleMobileMenu}
-                className="text-black focus:outline-none focus:text-black"
+                className="text-[#757575] focus:outline-none focus:text-[#757575]"
               >
                 {isMobileMenuOpen ? (<CloseIcon className='nav-icon' />) : (<MenuIcon className='nav-icon' />)}
               </button>
@@ -30,7 +30,7 @@ const Header = () => {
             <ul className={`flex gap-6 mobile-menu ${isMobileMenuOpen ? 'open' : 'lg:flex'}`}>
               {navLinks.map((navLink, index) => (
                 <li key={index}>
-                  <Link className='text-base text-[#000] hover:text-[#f26200] hover:transition-all duration-300 font-normal' to={navLink.path}>{navLink.title}</Link>
+                  <Link className='text-base text-[#757575] hover:text-[#f26200] hover:transition-all duration-300 font-light' to={navLink.path}>{navLink.title}</Link>
                 </li>
               ))}
             </ul>
