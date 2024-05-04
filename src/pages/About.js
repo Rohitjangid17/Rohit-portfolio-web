@@ -1,11 +1,12 @@
 import React from 'react';
+import Hero from '../components/Hero';
+import Overview from '../components/Overview';
 
 const About = () => {
     return (
         <>
-            <div className='container mx-auto'>
-                <h1>This is About page</h1>
-            </div>
+            <Hero />
+            <Overview />
         </>
     )
 }
