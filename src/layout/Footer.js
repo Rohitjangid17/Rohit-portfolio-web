@@ -66,17 +66,17 @@ const Footer = () => {
 
                             <ul className='flex flex-col gap-y-2'>
                                 <li>
-                                    <Link className='text-[#757575] text-base font-light'>jangidrohit817@gmail.com</Link>
+                                    <Link to="mailto:jangidrohit817@gmail.com" className='text-[#757575] text-base font-light'>jangidrohit817@gmail.com</Link>
                                 </li>
                                 <li>
-                                    <Link className='text-[#757575] text-base font-light'>+91 9587683849</Link>
+                                    <Link to="tel:+919587683849" className='text-[#757575] text-base font-light'>+91 9587683849</Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div className='text-center pt-10'>
-                        <span className='text-[#757575] text-base font-light'>Copyright ©2024 All rights reserved | This template is made with <FavoriteIcon className='text-[#f26200]'/> by Rohit Jangid</span>
+                        <span className='text-[#757575] text-base font-light'>Copyright ©2024 All rights reserved | This template is made with <FavoriteIcon className='text-[#f26200]' /> by Rohit Jangid</span>
                     </div>
                 </div>
             </footer >
