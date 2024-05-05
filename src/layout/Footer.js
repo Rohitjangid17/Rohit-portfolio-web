@@ -4,8 +4,17 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 const Footer = () => {
+    // Scroll to top of the page
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <>
             <footer className='py-10 bg-[#f5ecdb] px-5 sm:px-0'>
@@ -61,7 +70,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className='flex flex-col gap-y-3'>
+                        <div className='flex flex-col gap-y-3 relative'>
                             <h4 className='text-[#f26200] text-xl font-semibold'>Connect</h4>
 
                             <ul className='flex flex-col gap-y-2'>
@@ -72,6 +81,8 @@ const Footer = () => {
                                     <Link to="tel:+919587683849" className='text-[#757575] text-base font-light'>+91 9587683849</Link>
                                 </li>
                             </ul>
+
+                            <button type="button" onClick={scrollToTop} className='absolute bottom-0 right-0 bg-[#f26200] w-10 h-10 rounded-full text-[#757575] text-base font-normal'><ExpandLessIcon /></button>
                         </div>
                     </div>
 
