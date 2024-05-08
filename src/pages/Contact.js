@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import ContactForm from '../components/ContactForm';
+import Loader from '../components/Loader';
 
 const Contact = () => {
     return (
@@ -22,6 +23,8 @@ const Contact = () => {
                 </div>
             </section>
             {/* Contact section end here */}
+
+            <Loader />
         </>
     )
 }

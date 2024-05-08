@@ -4,6 +4,7 @@ import CodeIcon from '@mui/icons-material/Code';
 import { skills } from "../constants/Constant";
 import ContactForm from '../components/ContactForm';
 import Overview from '../components/Overview';
+import Loader from '../components/Loader';
 
 const Home = () => {
     return (
@@ -86,6 +87,9 @@ const Home = () => {
                 </div>
             </section>
             {/* Contact section end here */}
+
+
+            <Loader />
         </>
     )
 }
