@@ -4,6 +4,17 @@ import { ThreeDots } from 'react-loader-spinner';
 const Loader = () => {
     const [isLoader, setIsLoader] = useState(true);
 
+
+    const handleLoaderScrollbar = () => {
+        if (isLoader) {
+            document.body.classList.add('no-scroll');
+        } else {
+            document.body.classList.remove('no-scroll');
+        }
+    }
+
+    handleLoaderScrollbar();
+
     useEffect(() => {
         const delay = setTimeout(() => {
             setIsLoader(false);

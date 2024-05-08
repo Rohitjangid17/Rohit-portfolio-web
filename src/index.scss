@@ -43,7 +43,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden !important;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
