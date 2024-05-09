@@ -78,6 +78,9 @@ const Footer = () => {
                                     <Link to="mailto:jangidrohit817@gmail.com" className='text-[#757575] text-base font-light'>jangidrohit817@gmail.com</Link>
                                 </li>
                                 <li>
+                                    <Link to="#" className='text-[#757575] text-base font-light'>Jaipur, Rajasthan, India</Link>
+                                </li>
+                                <li>
                                     <Link to="tel:+919587683849" className='text-[#757575] text-base font-light'>+91 9587683849</Link>
                                 </li>
                             </ul>

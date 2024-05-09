@@ -1,5 +1,6 @@
 import React from 'react';
-import CodeIcon from '@mui/icons-material/Code';
+import { overviews } from '../constants/Constant';
+import Card from './Card';
 
 const Project = () => {
     return (
@@ -14,10 +15,9 @@ const Project = () => {
                     </div>
 
                     <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
-                        <div className='flex flex-col items-center gap-y-3 border shadow-md bg-[#f5ecdb] border-solid border-[#f26200] rounded-xl p-4'>
-                            <CodeIcon className='icon text-black' />
-                            <h4 className='text-[#f26200] text-base text-center font-semibold'>Front-End Web Development</h4>
-                        </div>
+                        {overviews.map((overview, index) => (
+                            <Card index={index} icon={overview.icon} title={overview.skill} />
+                        ))}
                     </div>
                 </div>
             </section>

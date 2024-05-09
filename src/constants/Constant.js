@@ -1,6 +1,5 @@
-import HtmlIcon from '@mui/icons-material/Html';
-import CssIcon from '@mui/icons-material/Css';
-import JavascriptIcon from '@mui/icons-material/Javascript';
+import htmlIcon from '../assets/Icons/html_icon.png';
+import cssIcon from '../assets/Icons/css_icon.webp';
 
 export const navLinks = [
     {
@@ -33,72 +32,72 @@ export const navLinks = [
 export const skills = [
     {
         id: 1,
-        icon: <HtmlIcon />,
+        icon: htmlIcon,
         skill: "HTML"
     },
     {
         id: 2,
-        icon: <CssIcon />,
+        icon: cssIcon,
         skill: "CSS"
     },
     {
         id: 3,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "SCSS"
     },
     {
         id: 4,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "Tailwind CSS"
     },
     {
         id: 5,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "Bootstrap"
     },
     {
         id: 6,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "Javascript"
     },
     {
         id: 7,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "Typescript"
     },
     {
         id: 8,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "Angular"
     },
     {
         id: 9,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "React.js"
     },
     {
         id: 7,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "Next.js"
     },
     {
         id: 10,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "JQuery"
     },
     {
         id: 11,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "C#"
     },
     {
         id: 12,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "ASP.NET Core"
     },
     {
         id: 13,
-        icon: <JavascriptIcon />,
+        icon: htmlIcon,
         skill: "MS SQL"
     },
 
@@ -107,62 +106,62 @@ export const skills = [
 export const overviews = [
     {
         id: 1,
-        icon: <HtmlIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "Front-End Web Development"
     },
     {
         id: 2,
-        icon: <CssIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "React Development"
     },
     {
         id: 3,
-        icon: <JavascriptIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "Angular Development"
     },
     {
         id: 4,
-        icon: <JavascriptIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "Next.js Development"
     },
     {
         id: 5,
-        icon: <JavascriptIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "Jquery Development"
     },
     {
         id: 6,
-        icon: <JavascriptIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "API Integration"
     },
     {
         id: 7,
-        icon: <JavascriptIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "Performance Optimization"
     },
     {
         id: 8,
-        icon: <JavascriptIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "Code Maintenance and Documentation"
     },
     {
         id: 9,
-        icon: <JavascriptIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "Project Collaboration"
     },
     {
         id: 10,
-        icon: <JavascriptIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "Photography"
     },
     {
         id: 11,
-        icon: <JavascriptIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "Digital Presence"
     },
     {
         id: 12,
-        icon: <JavascriptIcon className='icon text-black' />,
+        icon: htmlIcon,
         skill: "Sketching"
     },
 ]
