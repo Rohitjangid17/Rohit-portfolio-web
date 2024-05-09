@@ -1,5 +1,6 @@
 import React from 'react';
 import { skills } from "../constants/Constant";
+import Card from './Card';
 
 const Skill = () => {
     return (
@@ -15,10 +16,7 @@ const Skill = () => {
 
                     <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
                         {skills.map((skill, index) => (
-                            <div key={index} className='flex flex-col items-center gap-y-3 border shadow-md bg-[#f5ecdb] border-solid border-[#f26200] rounded-xl p-4'>
-                                {skill.icon}
-                                <h4 className='text-[#f26200] text-base text-center font-semibold'>{skill.skill}</h4>
-                            </div>
+                            <Card index={index} icon={skill.icon} title={skill.skill} />
                         ))}
                     </div>
                 </div>
