@@ -7,10 +7,12 @@ import CloseIcon from '@mui/icons-material/Close';
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  // Toggle mobile menu
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  // Close mobile menu
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
@@ -49,8 +51,8 @@ const Header = () => {
       {/* {isMobileMenuOpen && (
         <>
           <div className="backdrop" onClick={closeMobileMenu} /> */}
-          {/* Your side menu here */}
-        {/* </>
+      {/* Your side menu here */}
+      {/* </>
       )} */}
     </>
 

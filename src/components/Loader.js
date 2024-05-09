@@ -4,13 +4,9 @@ import { ThreeDots } from 'react-loader-spinner';
 const Loader = () => {
     const [isLoader, setIsLoader] = useState(true);
 
-
+    // Handle scrollbar when loader active
     const handleLoaderScrollbar = () => {
-        if (isLoader) {
-            document.body.classList.add('no-scroll');
-        } else {
-            document.body.classList.remove('no-scroll');
-        }
+        isLoader ? document.body.classList.add('no-scroll') : document.body.classList.remove('no-scroll');
     }
 
     handleLoaderScrollbar();

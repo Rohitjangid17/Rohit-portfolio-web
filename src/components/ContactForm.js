@@ -1,10 +1,11 @@
 import React from 'react';
 
 const ContactForm = () => {
+    // Collect user details and send message
     const sendMessage = (event) => {
         event.preventDefault();
     }
-    
+
     return (
         <>
             <form className='flex flex-col gap-y-4' onSubmit={sendMessage}>
