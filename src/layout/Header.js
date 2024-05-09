@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { navLinks } from '../constants/Constant';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
+  const location = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // Toggle mobile menu
@@ -37,7 +38,7 @@ const Header = () => {
               {navLinks.map((navLink, index) => (
                 <li key={index}>
                   <Link
-                    className='text-base text-[#757575] hover:text-[#f26200] hover:transition-all duration-300 font-light'
+                    className={`text-base text-[#757575] hover:text-[#f26200] hover:transition-all duration-300 font-normal ${location.pathname === navLink.path ? 'text-[#f26200]' : ''}`}
                     to={navLink.path}
                   >
                     {navLink.title}

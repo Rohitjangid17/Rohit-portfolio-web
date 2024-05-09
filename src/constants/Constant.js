@@ -80,41 +80,71 @@ export const skills = [
     },
     {
         id: 9,
+        icon: angularIcon,
+        skill: "Angular Material"
+    },
+    {
+        id: 10,
+        icon: angularIcon,
+        skill: "Angular CLI"
+    },
+    {
+        id: 11,
         icon: reactIcon,
         skill: "React.js"
     },
     {
-        id: 7,
+        id: 12,
         icon: htmlIcon,
         skill: "Next.js"
     },
     {
-        id: 10,
+        id: 13,
         icon: jqueryIcon,
         skill: "JQuery"
     },
     {
-        id: 11,
+        id: 14,
+        icon: htmlIcon,
+        skill: "React Query"
+    },
+    {
+        id: 15,
+        icon: htmlIcon,
+        skill: "Axios"
+    },
+    {
+        id: 16,
+        icon: htmlIcon,
+        skill: "Ajax"
+    },
+    {
+        id: 17,
+        icon: htmlIcon,
+        skill: "React Hooks"
+    },
+    {
+        id: 18,
         icon: csharpIcon,
         skill: "C#"
     },
     {
-        id: 12,
+        id: 19,
         icon: htmlIcon,
         skill: "ASP.NET Core"
     },
     {
-        id: 13,
+        id: 20,
         icon: htmlIcon,
         skill: "MS SQL"
     },
     {
-        id: 14,
+        id: 21,
         icon: htmlIcon,
         skill: "Git"
     },
     {
-        id: 15,
+        id: 22,
         icon: htmlIcon,
         skill: "Git Hub"
     },
