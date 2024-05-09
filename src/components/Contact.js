@@ -1,13 +1,9 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import ContactForm from '../components/ContactForm';
-import Loader from '../components/Loader';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
     return (
         <>
-            <Hero title="Contact Us" description="Test" iscontent={false} />
-
             {/* Contact section start here */}
             <section className='py-10 bg-white px-5 sm:px-0'>
                 <div className='container mx-auto'>
@@ -23,8 +19,6 @@ const Contact = () => {
                 </div>
             </section>
             {/* Contact section end here */}
-
-            <Loader />
         </>
     )
 }
