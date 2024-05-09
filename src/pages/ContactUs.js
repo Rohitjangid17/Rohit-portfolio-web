@@ -4,9 +4,12 @@ import Loader from '../components/Loader';
 import Contact from '../components/Contact';
 
 const ContactUs = () => {
+    const title = "Contact Us";
+    const description = "Test";
+
     return (
         <>
-            <Hero title="Contact Us" description="Test" iscontent={false} />
+            <Hero title={title} description={description} iscontent={false} />
             <Contact />
             <Loader />
         </>
