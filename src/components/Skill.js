@@ -15,8 +15,8 @@ const Skill = () => {
                     </div>
 
                     <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
-                        {skills.map((skill, index) => (
-                            <Card index={index} icon={skill.icon} title={skill.skill} isHastag={false} />
+                        {skills.map((skill) => (
+                            <Card key={skill.id} icon={skill.icon} title={skill.skill} isHastag={false} />
                         ))}
                     </div>
                 </div>

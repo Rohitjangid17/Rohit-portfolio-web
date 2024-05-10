@@ -12,27 +12,27 @@ import shopianaAdminPanel from '../assets/projects/shopiana_admin_panel.png';
 
 export const navLinks = [
     {
-        id: 1,
+        id: "home",
         title: "Home",
         path: "/home"
     },
     {
-        id: 2,
+        id: "about",
         title: "About",
         path: "/about"
     },
     {
-        id: 3,
+        id: "workExperience",
         title: "Work Experience",
         path: "/work"
     },
     {
-        id: 4,
+        id: "projects",
         title: "Projects",
         path: "/projects"
     },
     {
-        id: 4,
+        id: "contact",
         title: "Contact",
         path: "/contact"
     },
@@ -40,112 +40,112 @@ export const navLinks = [
 
 export const skills = [
     {
-        id: 1,
+        id: "html",
         icon: htmlIcon,
         skill: "HTML"
     },
     {
-        id: 2,
+        id: "css",
         icon: cssIcon,
         skill: "CSS"
     },
     {
-        id: 3,
+        id: "scss",
         icon: htmlIcon,
         skill: "SCSS"
     },
     {
-        id: 4,
+        id: "tailwindcss",
         icon: tailwindIcon,
         skill: "Tailwind CSS"
     },
     {
-        id: 5,
+        id: "bootstrap",
         icon: bootstrapIcon,
         skill: "Bootstrap"
     },
     {
-        id: 6,
+        id: "javascript",
         icon: javascriptIcon,
         skill: "Javascript"
     },
     {
-        id: 7,
+        id: "typescript",
         icon: typescriptIcon,
         skill: "Typescript"
     },
     {
-        id: 8,
+        id: "angular",
         icon: angularIcon,
         skill: "Angular"
     },
     {
-        id: 9,
+        id: "angularMaterial",
         icon: angularIcon,
         skill: "Angular Material"
     },
     {
-        id: 10,
+        id: "angularCLI",
         icon: angularIcon,
         skill: "Angular CLI"
     },
     {
-        id: 11,
+        id: "react",
         icon: reactIcon,
         skill: "React.js"
     },
     {
-        id: 12,
+        id: "next",
         icon: htmlIcon,
         skill: "Next.js"
     },
     {
-        id: 13,
+        id: "jquery",
         icon: jqueryIcon,
         skill: "JQuery"
     },
     {
-        id: 14,
+        id: "reactQuery",
         icon: htmlIcon,
         skill: "React Query"
     },
     {
-        id: 15,
+        id: "axios",
         icon: htmlIcon,
         skill: "Axios"
     },
     {
-        id: 16,
+        id: "ajax",
         icon: htmlIcon,
         skill: "Ajax"
     },
     {
-        id: 17,
+        id: "reactHooks",
         icon: htmlIcon,
         skill: "React Hooks"
     },
     {
-        id: 18,
+        id: "csharp",
         icon: csharpIcon,
         skill: "C#"
     },
     {
-        id: 19,
+        id: "dotNetCore",
         icon: htmlIcon,
         skill: "ASP.NET Core"
     },
     {
-        id: 20,
+        id: "msSql",
         icon: htmlIcon,
         skill: "MS SQL"
     },
     {
-        id: 21,
+        id: "git",
         icon: htmlIcon,
         skill: "Git"
     },
     {
-        id: 22,
+        id: "gitHub",
         icon: htmlIcon,
         skill: "Git Hub"
     },

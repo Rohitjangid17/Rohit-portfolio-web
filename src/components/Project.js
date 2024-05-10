@@ -15,10 +15,10 @@ const Project = () => {
                         <p className='text-black text-base'>Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively. I approach each project with a blend of creativity and functionality, ensuring that the user experience is not only visually engaging but also intuitive and seamless. My dedication to clean code and best practices reflects in the efficiency and maintainability of my projects.</p>
                     </div>
 
-                    <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
-                        {projects.map((project, index) => (
-                            <Link to={project.projectUrl} target='_blank'>
-                                <Card index={index} icon={project.img} title={project.name} desciption={project.description} hastagList={project.hashTag} isHastag={true} />
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
+                        {projects.map((project) => (
+                            <Link key={project.id} to={project.projectUrl} target='_blank'>
+                                <Card icon={project.img} title={project.name} desciption={project.description} hastagList={project.hashTag} isHastag={true} />
                             </Link>
                         ))}
                     </div>

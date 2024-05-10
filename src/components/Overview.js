@@ -3,7 +3,6 @@ import Card from './Card';
 import { overviews } from '../constants/Constant';
 
 function Overview() {
-    console.log(overviews);
     return (
         <div>
             {/* Overview section start here */}
@@ -16,8 +15,8 @@ function Overview() {
                     </div>
 
                     <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
-                        {overviews.map((overview, index) => (
-                            <Card index={index} icon={overview.icon} title={overview.skill} isHastag={false} />
+                        {overviews.map((overview) => (
+                            <Card key={overview.id} icon={overview.icon} title={overview.skill} isHastag={false} />
                         ))}
                     </div>
                 </div>
