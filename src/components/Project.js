@@ -1,6 +1,7 @@
 import React from 'react';
-import { overviews } from '../constants/Constant';
+import { projects } from '../constants/Constant';
 import Card from './Card';
+import { Link } from 'react-router-dom';
 
 const Project = () => {
     return (
@@ -15,8 +16,10 @@ const Project = () => {
                     </div>
 
                     <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
-                        {overviews.map((overview, index) => (
-                            <Card index={index} icon={overview.icon} title={overview.skill} />
+                        {projects.map((project, index) => (
+                            <Link to={project.projectUrl} target='_blank'>
+                                <Card index={index} icon={project.img} title={project.name} desciption={project.description} hastagList={project.hashTag} isHastag={true} />
+                            </Link>
                         ))}
                     </div>
                 </div>

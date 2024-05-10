@@ -8,6 +8,7 @@ import angularIcon from '../assets/Icons/angular_icon.svg';
 import reactIcon from '../assets/Icons/react_icon.svg';
 import jqueryIcon from '../assets/Icons/jquery_icon.svg';
 import csharpIcon from '../assets/Icons/csharp_icon.svg';
+import shopianaAdminPanel from '../assets/projects/shopiana_admin_panel.png';
 
 export const navLinks = [
     {
@@ -210,5 +211,64 @@ export const overviews = [
         id: 12,
         icon: htmlIcon,
         skill: "Sketching"
+    },
+]
+
+export const projects = [
+    {
+        id: 1,
+        name: "Shopiana - Admin Panel",
+        description: "Shopiana - Admin Panel: Manage eCommerce effortlessly with Angular, Material Angular, and Tailwind CSS. Streamline operations and optimize retail experience.",
+        img: shopianaAdminPanel,
+        hashTag: ["#Angular", "#Material Angular", "#Tailwindcss", "Admin Panel"],
+        projectUrl: "https://admin.shopiana.io/"
+    },
+    {
+        id: 2,
+        name: "Amy Collections: Elevating Elegance Online",
+        description: "Amy Collections: Redefining elegance with React.js, Material UI, and Tailwind CSS for seamless shopping. Discover timeless fashion effortlessly.",
+        img: shopianaAdminPanel,
+        hashTag: ["#React.js", "#Material Ui", "#Tailwindcss", "Customer Website"],
+        projectUrl: "https://www.theamycollections.com/"
+    },
+    {
+        id: 3,
+        name: "HR Management System",
+        description: "The HR Management System optimizes HR processes with HTML, CSS, Bootstrap, and JQuery, ensuring a user-friendly interface for tasks like employee data management and attendance tracking.",
+        img: shopianaAdminPanel,
+        hashTag: ["#HTML", "#CSS", "#Bootstrap", "#JQuery"],
+        projectUrl: "https://ctpl.timelabs.in/"
+    },
+    {
+        id: 4,
+        name: "Shopiana Website",
+        description: "Shopiana Website: Seamless online shopping with HTML, CSS, Bootstrap, and Next.js. Explore diverse products. Next.js boosts performance. Discover trends and deals!",
+        img: shopianaAdminPanel,
+        hashTag: ["#HTML", "#CSS", "#Bootstrap", "#Next.js"],
+        projectUrl: "https://shopiana.io/"
+    },
+    {
+        id: 5,
+        name: "Timelabs Product Website",
+        description: "Timelabs Product Website: Innovate with HTML, CSS, Bootstrap, JQuery, and .NET Core. Streamline processes with user-friendly solutions. Visit now!",
+        img: shopianaAdminPanel,
+        hashTag: ["#HTML", "#CSS", "#Bootstrap", "#JQuery", ".NET Core"],
+        projectUrl: "https://www.timelabs.in/"
+    },
+    {
+        id: 6,
+        name: "Cynosure Website",
+        description: "Cynosure Website: Explore innovative solutions with HTML5, CSS, and JavaScript. Experience excellence in user-focused technology. Unlock new possibilities for your business.",
+        img: shopianaAdminPanel,
+        hashTag: ["#HTML", "#CSS", "#Bootstrap", "#JQuery"],
+        projectUrl: "https://www.cynosuretech.com/"
+    },
+    {
+        id: 7,
+        name: "Snack Game",
+        description: "Snack Game: Navigate a hungry snake through a maze, gobbling up snacks! Built with HTML5, CSS, and JavaScript. Test your reflexes and strategy. Click to play!",
+        img: shopianaAdminPanel,
+        hashTag: ["#HTML5", "#CSS", "#Javascript"],
+        projectUrl: "https://snake-game-kohl-nine.vercel.app/"
     },
 ]
