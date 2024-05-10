@@ -18,7 +18,7 @@ const ContactForm = () => {
     const sendMessage = async (event) => {
         event.preventDefault();
         console.log(formData);
-        axios.post('/api/send-email', formData)
+        axios.post('https://dashboard.emailjs.com/send', formData)
             .then(response => {
                 if (response.status === 200) {
                     alert('Message sent successfully!');
