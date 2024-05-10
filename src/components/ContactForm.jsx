@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -17,28 +18,23 @@ const ContactForm = () => {
     const sendMessage = async (event) => {
         event.preventDefault();
         console.log(formData);
-        try {
-            const response = await fetch('/api/send-email', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(formData)
+        axios.post('/api/send-email', formData)
+            .then(response => {
+                if (response.status === 200) {
+                    alert('Message sent successfully!');
+                    setFormData({
+                        name: '',
+                        email: '',
+                        message: ''
+                    });
+                } else {
+                    alert('Failed to send message. Please try again later.');
+                }
+            })
+            .catch(error => {
+                console.error('Error sending message:', error);
+                alert('An error occurred. Please try again later.');
             });
-            if (response.ok) {
-                alert('Message sent successfully!');
-                setFormData({
-                    name: '',
-                    email: '',
-                    message: ''
-                });
-            } else {
-                alert('Failed to send message. Please try again later.');
-            }
-        } catch (error) {
-            console.error('Error sending message:', error);
-            alert('An error occurred. Please try again later.');
-        }
     }
 
     return (
