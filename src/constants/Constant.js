@@ -8,6 +8,13 @@ import angularIcon from '../assets/Icons/angular_icon.svg';
 import reactIcon from '../assets/Icons/react_icon.svg';
 import jqueryIcon from '../assets/Icons/jquery_icon.svg';
 import csharpIcon from '../assets/Icons/csharp_icon.svg';
+import reactQueryIcon from '../assets/Icons/react_query.svg';
+import gitIcon from '../assets/Icons/git_icon.svg';
+import githubIcon from '../assets/Icons/github_icon.svg';
+import msSqlIcon from '../assets/Icons/ms_sql_icon.svg';
+import scssIcon from '../assets/Icons/scss_icon.svg';
+import nextjsIcon from '../assets/Icons/nextjs_icon.svg';
+import frontendIcon from '../assets/Icons/frontend_development_icon.svg';
 import shopianaAdminPanel from '../assets/projects/shopiana_admin_panel.png';
 
 export const navLinks = [
@@ -51,7 +58,7 @@ export const skills = [
     },
     {
         id: "scss",
-        icon: htmlIcon,
+        icon: scssIcon,
         skill: "SCSS"
     },
     {
@@ -96,7 +103,7 @@ export const skills = [
     },
     {
         id: "next",
-        icon: htmlIcon,
+        icon: nextjsIcon,
         skill: "Next.js"
     },
     {
@@ -106,7 +113,7 @@ export const skills = [
     },
     {
         id: "reactQuery",
-        icon: htmlIcon,
+        icon: reactQueryIcon,
         skill: "React Query"
     },
     {
@@ -121,7 +128,7 @@ export const skills = [
     },
     {
         id: "reactHooks",
-        icon: htmlIcon,
+        icon: reactIcon,
         skill: "React Hooks"
     },
     {
@@ -136,17 +143,17 @@ export const skills = [
     },
     {
         id: "msSql",
-        icon: htmlIcon,
+        icon: msSqlIcon,
         skill: "MS SQL"
     },
     {
         id: "git",
-        icon: htmlIcon,
+        icon: gitIcon,
         skill: "Git"
     },
     {
         id: "gitHub",
-        icon: htmlIcon,
+        icon: githubIcon,
         skill: "Git Hub"
     },
 ]
@@ -154,27 +161,27 @@ export const skills = [
 export const overviews = [
     {
         id: 1,
-        icon: htmlIcon,
+        icon: frontendIcon,
         skill: "Front-End Web Development"
     },
     {
         id: 2,
-        icon: htmlIcon,
+        icon: reactIcon,
         skill: "React Development"
     },
     {
         id: 3,
-        icon: htmlIcon,
+        icon: angularIcon,
         skill: "Angular Development"
     },
     {
         id: 4,
-        icon: htmlIcon,
+        icon: nextjsIcon,
         skill: "Next.js Development"
     },
     {
         id: 5,
-        icon: htmlIcon,
+        icon: jqueryIcon,
         skill: "Jquery Development"
     },
     {
