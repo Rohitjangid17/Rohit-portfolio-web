@@ -9,7 +9,7 @@ import Testimonials from '../components/Testimonials';
 
 const Home = () => {
     const title = "Welcome to Rohit's Portfolio";
-    const description = "Welcome to Rohit's PortfolioWelcome to my digital playground, where pixels and code collide. I'm a frontend developer, crafting interactive marvels from visions. With creativity and tech savvy, I design captivating interfaces. Dive into my portfolio for the ultimate fusion of design and development.";
+    const description = "Welcome to my digital playground! I'm Rohit Jangid, a frontend developer with a passion for creating beautiful, user-friendly websites and applications. Explore my portfolio to discover how I blend design and technology to craft engaging online experiences. Let's innovate, collaborate, and bring your digital visions to life!";
 
     // Set title
     const setTitle = () => {

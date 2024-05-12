@@ -41,6 +41,11 @@ export const navLinks = [
         path: "/projects"
     },
     {
+        id: "sketch",
+        title: "Sketch",
+        path: "/sketch"
+    },
+    {
         id: "contact",
         title: "Contact",
         path: "/contact"
@@ -290,27 +295,21 @@ export const testimonials = [
         image: personImage
     },
     {
-        id: 1,
+        id: 2,
         name: "Rohit Jangid",
         message: "test",
         image: personImage
     },
     {
-        id: 1,
+        id: 3,
         name: "Rohit Jangid",
         message: "test",
         image: personImage
     },
     {
-        id: 1,
+        id: 4,
         name: "Rohit Jangid",
         message: "test",
         image: personImage
-    },
-    {
-        id: 1,
-        name: "Rohit Jangid",
-        message: "test",
-        image: personImage
-    },
+    }
 ]

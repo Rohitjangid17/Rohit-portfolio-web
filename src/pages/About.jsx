@@ -5,7 +5,7 @@ import Loader from '../components/Loader';
 
 const About = () => {
     const title = "About Us";
-    const description = "I am a passionate and detail-oriented front-end developer with a strong foundation in web technologies. My journey in the world of web development has been marked by hands-on experience, creativity, and a commitment to delivering visually appealing and intuitive user interfaces. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!";
+    const description = "Welcome to my corner of the web! I'm Rohit Jangid, a passionate frontend developer dedicated to crafting immersive digital experiences. With a blend of creativity and technical expertise, I specialize in turning ideas into captivating websites and applications. Join me on this journey as we explore the intersection of design and technology, one pixel at a time.";
 
     // Set title
     const setTitle = () => {
