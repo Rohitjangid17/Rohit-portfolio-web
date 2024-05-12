@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from "react-router-dom";
 import { navLinks } from '../constants/Constant';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -7,6 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 const Header = () => {
   const location = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   // Toggle mobile menu
   const toggleMobileMenu = () => {
@@ -18,9 +19,26 @@ const Header = () => {
     setIsMobileMenuOpen(false);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 100) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <header className={`bg-[#f5ecdb] py-3 px-5 sm:px-0 sticky top-0 ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
+      <header className={`bg-[#f5ecdb] py-3 px-5 sm:px-0 sticky top-0 ${isMobileMenuOpen ? 'mobile-menu-open' : ''} ${isScrolled ? 'scrolled' : ''}`}>
         <div className='container mx-auto relative'>
           <nav className='flex justify-between items-center'>
             <div>
@@ -49,14 +67,7 @@ const Header = () => {
           </nav>
         </div>
       </header>
-      {/* {isMobileMenuOpen && (
-        <>
-          <div className="backdrop" onClick={closeMobileMenu} /> */}
-      {/* Your side menu here */}
-      {/* </>
-      )} */}
     </>
-
   );
 };
 

@@ -85,7 +85,7 @@ const Footer = () => {
                                 </li>
                             </ul>
 
-                            <button type="button" onClick={scrollToTop} className='absolute bottom-0 right-0 bg-[#f26200] w-10 h-10 rounded-full text-[#757575] text-base font-normal'><ExpandLessIcon /></button>
+                            <button type="button" onClick={scrollToTop} className='absolute bottom-0 right-0 bg-[#f26200] w-10 h-10 rounded-full text-black text-base font-normal'><ExpandLessIcon /></button>
                         </div>
                     </div>
 

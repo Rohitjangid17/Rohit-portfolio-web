@@ -17,6 +17,8 @@ import nextjsIcon from '../assets/Icons/nextjs_icon.svg';
 import frontendIcon from '../assets/Icons/frontend_development_icon.svg';
 import shopianaAdminPanel from '../assets/projects/shopiana_admin_panel.png';
 
+import personImage from "../assets/person.jpg";
+
 export const navLinks = [
     {
         id: "home",
@@ -277,5 +279,38 @@ export const projects = [
         img: shopianaAdminPanel,
         hashTag: ["#HTML5", "#CSS", "#Javascript"],
         projectUrl: "https://snake-game-kohl-nine.vercel.app/"
+    },
+]
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "Rohit Jangid",
+        message: "test",
+        image: personImage
+    },
+    {
+        id: 1,
+        name: "Rohit Jangid",
+        message: "test",
+        image: personImage
+    },
+    {
+        id: 1,
+        name: "Rohit Jangid",
+        message: "test",
+        image: personImage
+    },
+    {
+        id: 1,
+        name: "Rohit Jangid",
+        message: "test",
+        image: personImage
+    },
+    {
+        id: 1,
+        name: "Rohit Jangid",
+        message: "test",
+        image: personImage
     },
 ]
