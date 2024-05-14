@@ -16,7 +16,7 @@ function Overview() {
 
                     <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
                         {overviews.map((overview) => (
-                            <Card key={overview.id} icon={overview.icon} title={overview.skill} isHastag={false} />
+                            <Card key={overview.id} icon={overview.icon} title={overview.skill} isTestimonial={false} isHastag={false} />
                         ))}
                     </div>
                 </div>
