@@ -22,11 +22,7 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      if (scrollPosition > 100) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      return scrollPosition > 100 ? setIsScrolled(true) : setIsScrolled(false);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -53,8 +49,8 @@ const Header = () => {
               </button>
             </div>
             <ul className={`flex gap-6 mobile-menu ${isMobileMenuOpen ? 'open' : 'lg:flex'}`} onClick={closeMobileMenu}>
-              {navLinks.map((navLink, index) => (
-                <li key={index}>
+              {navLinks.map((navLink) => (
+                <li key={navLink.id}>
                   <Link
                     className={`text-base text-[#757575] hover:text-[#f26200] hover:transition-all duration-300 font-normal ${location.pathname === navLink.path ? 'text-[#f26200]' : ''}`}
                     to={navLink.path}

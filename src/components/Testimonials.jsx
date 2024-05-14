@@ -3,7 +3,6 @@ import Card from './Card';
 import { testimonials } from "../constants/Constant";
 
 const Testimonials = () => {
-    console.log(testimonials);
     return (
         <>
             {/* Testimonials section start here */}

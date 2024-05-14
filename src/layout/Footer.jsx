@@ -1,4 +1,5 @@
 import React from 'react';
+import { navLinks } from '../constants/Constant';
 import { Link } from 'react-router-dom';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -32,18 +33,16 @@ const Footer = () => {
                             <h4 className='text-[#f26200] text-xl font-semibold'>Quick Links</h4>
 
                             <ul className='flex flex-col gap-y-2'>
-                                <li>
-                                    <Link to="/" className='text-[#757575] text-base font-light'>Home</Link>
-                                </li>
-                                <li>
-                                    <Link to="/about" className='text-[#757575] text-base font-light'>About</Link>
-                                </li>
-                                <li>
-                                    <Link to="/work" className='text-[#757575] text-base font-light'>Work Experience</Link>
-                                </li>
-                                <li>
-                                    <Link to="/contact" className='text-[#757575] text-base font-light'>Contact</Link>
-                                </li>
+                                {navLinks.map((navLink) => (
+                                    <li key={navLink.id}>
+                                        <Link
+                                            className={`text-base text-[#757575] hover:text-[#f26200] hover:transition-all duration-300 font-normal`}
+                                            to={navLink.path}
+                                        >
+                                            {navLink.title}
+                                        </Link>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                         <div className='flex flex-col gap-y-3'>

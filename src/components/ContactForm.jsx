@@ -17,7 +17,6 @@ const ContactForm = () => {
     // Collect user details and send message
     const sendMessage = async (event) => {
         event.preventDefault();
-        console.log(formData);
         axios.post('https://dashboard.emailjs.com/send', formData)
             .then(response => {
                 if (response.status === 200) {
