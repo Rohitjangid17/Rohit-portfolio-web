@@ -21,32 +21,32 @@ import personImage from "../assets/person.jpg";
 
 export const navLinks = [
     {
-        id: "home",
+        id: 1,
         title: "Home",
         path: "/home"
     },
     {
-        id: "about",
+        id: 2,
         title: "About",
         path: "/about"
     },
     {
-        id: "workExperience",
+        id: 3,
         title: "Work Experience",
         path: "/work"
     },
     {
-        id: "projects",
+        id: 4,
         title: "Projects",
         path: "/projects"
     },
     {
-        id: "sketch",
-        title: "Sketch",
-        path: "/sketch"
+        id: 5,
+        title: "Sketches",
+        path: "/Sketches"
     },
     {
-        id: "contact",
+        id: 6,
         title: "Contact",
         path: "/contact"
     },

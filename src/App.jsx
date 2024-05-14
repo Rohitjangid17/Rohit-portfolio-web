@@ -5,9 +5,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
 import Projects from "./pages/Projects";
-import Sketch from "./components/Sketch";
 import ContactUs from "./pages/ContactUs";
 import Footer from "./layout/Footer";
+import Sketches from "./pages/Sketches";
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/work" element={<Work />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/sketch" element={<Sketch />} />
+            <Route path="/sketches" element={<Sketches />} />
             <Route path="/contact" element={<ContactUs />} />
           </Routes>
         </main>
