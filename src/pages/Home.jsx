@@ -6,6 +6,7 @@ import Contact from '../components/Contact';
 import Skill from '../components/Skill';
 import Project from '../components/Project';
 import Testimonials from '../components/Testimonials';
+import WorkExperience from '../components/WorkExperience';
 
 const Home = () => {
     const title = "Welcome to Rohit's Portfolio";
@@ -24,6 +25,7 @@ const Home = () => {
         <>
             <Hero title={title} description={description} iscontent={true} />
             <Overview />
+            <WorkExperience />
             <Skill />
             <Project />
             <Testimonials />

@@ -34,9 +34,9 @@ const Header = () => {
 
   return (
     <>
-      <header className={`bg-[#f5ecdb] py-3 px-5 sm:px-0 sticky top-0 ${isMobileMenuOpen ? 'mobile-menu-open' : ''} ${isScrolled ? 'scrolled' : ''}`}>
+      <header className={`bg-[#f5ecdb] py-3 sticky top-0 ${isMobileMenuOpen ? 'mobile-menu-open' : ''} ${isScrolled ? 'scrolled' : ''}`}>
         <div className='container mx-auto relative'>
-          <nav className='flex justify-between items-center'>
+          <nav className='flex justify-between items-center px-5'>
             <div>
               <Link to="/"><h3 className='text-[#f26200] text-2xl font-semibold'>ROHIT</h3></Link>
             </div>

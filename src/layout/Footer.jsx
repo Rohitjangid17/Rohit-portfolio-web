@@ -20,7 +20,7 @@ const Footer = () => {
         <>
             <footer className='py-10 bg-[#f5ecdb] px-5 sm:px-0'>
                 <div className='container mx-auto'>
-                    <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-10'>
+                    <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-5 lg:gap-10'>
                         <div className='flex flex-col gap-y-3'>
                             <h4 className='text-[#f26200] text-2xl font-semibold'>ROHIT</h4>
                             <div className='flex items-center gap-x-3'>
