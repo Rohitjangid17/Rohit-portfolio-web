@@ -18,6 +18,7 @@ import frontendIcon from '../assets/Icons/frontend_development_icon.svg';
 import shopianaAdminPanel from '../assets/projects/shopiana_admin_panel.png';
 
 import personImage from "../assets/person.jpg";
+import sketch1 from "../assets/sketches/sketch_1.jpg"
 
 export const navLinks = [
     {
@@ -312,4 +313,55 @@ export const testimonials = [
         message: "test",
         image: personImage
     }
+]
+
+export const sketches = [
+    {
+        id: 1,
+        image: sketch1,
+    },
+    {
+        id: 2,
+        image: sketch1,
+    },
+    {
+        id: 3,
+        image: sketch1,
+    },
+    {
+        id: 4,
+        image: sketch1,
+    },
+    {
+        id: 5,
+        image: sketch1,
+    },
+    {
+        id: 6,
+        image: sketch1,
+    },
+    {
+        id: 7,
+        image: sketch1,
+    },
+    {
+        id: 8,
+        image: sketch1,
+    },
+    {
+        id: 9,
+        image: sketch1,
+    },
+    {
+        id: 10,
+        image: sketch1,
+    },
+    {
+        id: 11,
+        image: sketch1,
+    },
+    {
+        id: 12,
+        image: sketch1,
+    },
 ]
