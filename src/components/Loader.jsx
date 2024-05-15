@@ -6,7 +6,7 @@ const Loader = () => {
 
     // Handle scrollbar when loader active
     const handleLoaderScrollbar = () => {
-        isLoader ? document.body.classList.add('no-scroll') : document.body.classList.remove('no-scroll');
+        return isLoader ? document.body.classList.add('no-scroll') : document.body.classList.remove('no-scroll');
     }
 
     handleLoaderScrollbar();
