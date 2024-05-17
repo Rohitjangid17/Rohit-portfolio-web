@@ -318,7 +318,25 @@ export const testimonials = [
         name: "Rohit Jangid",
         message: "test",
         image: personImage
-    }
+    },
+    {
+        id: 5,
+        name: "Rohit Jangid",
+        message: "test",
+        image: personImage
+    },
+    {
+        id: 6,
+        name: "Rohit Jangid",
+        message: "test",
+        image: personImage
+    },
+    {
+        id: 7,
+        name: "Rohit Jangid",
+        message: "test",
+        image: personImage
+    },
 ]
 
 export const sketches = [
