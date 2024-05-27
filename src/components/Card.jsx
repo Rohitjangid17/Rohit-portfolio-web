@@ -1,13 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-const Card = ({ title, icon, isHastag, hastagList, desciption, isTestimonial, isDesignation, duration, isDuration, isExperience, isProductDetails, projectLink }) => {
-   // const navigation = useNavigate();
-
-    // Navigate to project details by id
-    const navigateToProjectDetailsById = () => {
-        // navigation.navigate('Product', { screen: 'ProductDetail' });
-    }
+const Card = ({ title, icon, isHastag, hastagList, desciption, isTestimonial, isDesignation, duration, isDuration, isExperience, isProductDetails, projectLink, projectId }) => {
 
     return (
         <>
@@ -43,8 +37,8 @@ const Card = ({ title, icon, isHastag, hastagList, desciption, isTestimonial, is
                 {isProductDetails ? (
                     <>
                         <div className='flex justify-between w-full mt-2'>
-                            <Link className='text-[#f26200] font-medium text-base' target='_blank'>Project Link</Link>
-                            <Link className='text-[#f26200] font-medium text-base' onClick={navigateToProjectDetailsById}>Project Details</Link>
+                            <Link className='text-[#f26200] font-medium text-base' target='_blank' to={projectLink}>Project Link</Link>
+                            <Link className='text-[#f26200] font-medium text-base' to={`/project-details/${projectId}`}>View More</Link>
                         </div>
                     </>
                 ) : null}

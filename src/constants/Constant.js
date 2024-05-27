@@ -325,7 +325,7 @@ export const experiences = [
     {
         id: 3,
         image: shopianaLogo,
-        title: "Timelabs",
+        title: "Shopiana",
         designation: "Traning / Internship",
         duration: "Jun 2022 - Aug 2022",
         isTestimonial: false,
