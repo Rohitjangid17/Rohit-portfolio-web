@@ -5,25 +5,32 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 const Testimonials = () => {
-    const configOptions = {
+    const responsiveConfig = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
             items: 3,
             slidesToSlide: 1,
-            partialVisibilityGutter: 30,
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
             items: 2,
             slidesToSlide: 1,
-            partialVisibilityGutter: 30,
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
             items: 1,
             slidesToSlide: 1,
-            partialVisibilityGutter: 30,
         }
+    }
+
+    const autoplayConfig = {
+        autoplay: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+        autoPlayTimeout: 5000,
+        autoPlayDirection: 'ltr',
+        autoPlayActionDisabled: false,
+        stopOnHover: true,
     };
     return (
         <>
@@ -38,7 +45,7 @@ const Testimonials = () => {
 
                     {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 mt-10'> */}
 
-                    <Carousel className='mt-10' responsive={configOptions}>
+                    <Carousel className='mt-10' responsive={responsiveConfig} {...autoplayConfig}>
                         {testimonials.map((testimonial) => (
                             <div className='mr-4' key={testimonial.id}>
                                 <Card icon={testimonial.image} title={testimonial.name} desciption={testimonial.message} isHastag={false} isTestimonial={true} />

@@ -22,6 +22,9 @@ import shopianaWebsite from '../assets/projects/shopiana_website.png';
 import timelabsWebsite from '../assets/projects/timelabs_website.png';
 import cynosureWebsite from '../assets/projects/cynosure_website.png';
 import snackGame from '../assets/projects/snack_game.png';
+import shopianaLogo from '../assets/experience/shopiana_logo.jpg';
+// import timelabsLogo from '../assets/experience/Timelabs_logo.png';
+import cynosureLogo from '../assets/experience/Cynosure_logo.svg';
 
 import personImage from "../assets/person.jpg";
 import sketch1 from "../assets/sketches/sketch_1.jpg"
@@ -47,11 +50,11 @@ export const navLinks = [
         title: "Projects",
         path: "/projects"
     },
-    {
-        id: 5,
-        title: "Sketches",
-        path: "/sketches"
-    },
+    // {
+    //     id: 5,
+    //     title: "Sketches",
+    //     path: "/sketches"
+    // },
     {
         id: 6,
         title: "Contact",
@@ -291,6 +294,45 @@ export const projects = [
         img: snackGame,
         hashTag: ["#HTML5", "#CSS", "#Javascript"],
         projectUrl: "https://snake-game-kohl-nine.vercel.app/"
+    },
+]
+
+export const experiences = [
+    {
+        id: 1,
+        image: cynosureLogo,
+        title: "Cynosure Technologies Pvt Ltd",
+        designation: "Junior Frontend Developer",
+        duration: "Oct 2023 - Present",
+        isTestimonial: false,
+        isDesignation: true,
+        isDuration: true,
+        isHastag: false,
+        isExperience: true,
+    },
+    {
+        id: 2,
+        image: shopianaLogo,
+        title: "Shopiana",
+        designation: "Frontend Developer",
+        duration: "Sept 2022 - Aug 2023",
+        isTestimonial: false,
+        isDesignation: true,
+        isDuration: true,
+        isHastag: false,
+        isExperience: true,
+    },
+    {
+        id: 3,
+        image: shopianaLogo,
+        title: "Timelabs",
+        designation: "Traning / Internship",
+        duration: "Jun 2022 - Aug 2022",
+        isTestimonial: false,
+        isDesignation: true,
+        isDuration: true,
+        isHastag: false,
+        isExperience: true,
     },
 ]
 

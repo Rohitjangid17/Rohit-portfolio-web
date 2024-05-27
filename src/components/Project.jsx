@@ -17,9 +17,7 @@ const Project = () => {
 
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
                         {projects.map((project) => (
-                            <Link key={project.id} to={project.projectUrl} target='_blank'>
-                                <Card icon={project.img} title={project.name} desciption={project.description} hastagList={project.hashTag} isTestimonial={false} isHastag={true} />
-                            </Link>
+                            <Card key={project.id} link={project.projectUrl} icon={project.img} title={project.name} desciption={project.description} hastagList={project.hashTag} isTestimonial={false} isHastag={true} isProductDetails={true} />
                         ))}
                     </div>
                 </div>

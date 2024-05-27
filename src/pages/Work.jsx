@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Hero from '../components/Hero';
 import Loader from '../components/Loader';
+import WorkExperience from '../components/WorkExperience';
 
 const Work = () => {
     const title = "Work Experience";
@@ -18,6 +19,7 @@ const Work = () => {
     return (
         <>
             <Hero title={title} description={description} iscontent={false} />
+            <WorkExperience />
             <Loader />
         </>
     )

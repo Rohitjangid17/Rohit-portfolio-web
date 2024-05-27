@@ -38,7 +38,7 @@ const Header = () => {
         <div className='container mx-auto relative'>
           <nav className='flex justify-between items-center px-5'>
             <div>
-              <Link to="/"><h3 className='text-[#f26200] text-2xl font-semibold'>ROHIT</h3></Link>
+              <Link to="/" className='text-[#f26200] text-2xl font-semibold'>ROHIT</Link>
             </div>
             <div className="block lg:hidden">
               <button
