@@ -148,21 +148,21 @@ export const skills = [
         icon: reactIcon,
         skill: "React Hooks"
     },
-    {
-        id: "csharp",
-        icon: csharpIcon,
-        skill: "C#"
-    },
-    {
-        id: "dotNetCore",
-        icon: htmlIcon,
-        skill: "ASP.NET Core"
-    },
-    {
-        id: "msSql",
-        icon: msSqlIcon,
-        skill: "MS SQL"
-    },
+    // {
+    //     id: "csharp",
+    //     icon: csharpIcon,
+    //     skill: "C#"
+    // },
+    // {
+    //     id: "dotNetCore",
+    //     icon: htmlIcon,
+    //     skill: "ASP.NET Core"
+    // },
+    // {
+    //     id: "msSql",
+    //     icon: msSqlIcon,
+    //     skill: "MS SQL"
+    // },
     {
         id: "git",
         icon: gitIcon,
