@@ -14,7 +14,7 @@ const Loader = () => {
     useEffect(() => {
         const delay = setTimeout(() => {
             setIsLoader(false);
-        }, 3000);
+        }, 1200);
         return () => clearTimeout(delay);
     }, []);
 
