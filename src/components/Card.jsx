@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Card = ({ title, icon, isHastag, hastagList, desciption, isTestimonial, isDesignation, duration, isDuration, isExperience, isProductDetails, projectLink, projectId }) => {
 

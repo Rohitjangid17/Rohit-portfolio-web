@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { navLinks } from '../constants/Constant';
 import { Link } from 'react-router-dom';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -8,6 +8,8 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 const Footer = () => {
+    const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
     // Scroll to top of the page
     const scrollToTop = () => {
         window.scrollTo({
@@ -15,6 +17,11 @@ const Footer = () => {
             behavior: 'smooth',
         });
     };
+
+    useEffect(() => {
+        // set current year
+        setCurrentYear(new Date().getFullYear());
+    }, []);
 
     return (
         <>
@@ -89,7 +96,7 @@ const Footer = () => {
                     </div>
 
                     <div className='text-center pt-10'>
-                        <span className='text-[#757575] text-base font-light'>Copyright ©2024 All rights reserved | This portfolio is made with <FavoriteIcon className='text-[#f26200]' /> by Rohit Jangid</span>
+                        <span className='text-[#757575] text-base font-light'>Copyright ©{currentYear} All rights reserved | This portfolio is made with <FavoriteIcon className='text-[#f26200]' /> by Rohit Jangid</span>
                     </div>
                 </div>
             </footer >
