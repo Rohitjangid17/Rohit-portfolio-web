@@ -2,7 +2,7 @@ import React from 'react';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import resume from "./../assets/Resume/Rohit_Jangid_Front_End_Developer.pdf";
+import resume from "./../assets/resume/Rohit_Jangid_(Frontend_Developer)_1.8EX.pdf";
 import { Link } from 'react-router-dom';
 
 const Hero = ({ title, description, iscontent }) => {
@@ -22,7 +22,7 @@ const Hero = ({ title, description, iscontent }) => {
                     </svg>
                 </div>
 
-                <div className="relative z-10 flex flex-col h-screen justify-center items-center gap-y-[22px] px-5">
+                <div className="relative z-10 flex flex-col h-full justify-center items-center gap-y-[22px] px-5">
                     <h1 className="text-center font-[900] text-[#f26200] text-[44px] leading-[50px] sm:text-[50px] sm:leading-[56px] md:text-[64px] md:leading-[80px] fade-in-up hero-heading">
                         {title}
                     </h1>
