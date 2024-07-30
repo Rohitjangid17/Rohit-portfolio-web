@@ -22,7 +22,7 @@ const Hero = ({ title, description, iscontent }) => {
                     </svg>
                 </div>
 
-                <div className="relative z-10 flex flex-col h-full justify-center items-center gap-y-[22px] px-5">
+                <div className="relative z-10 flex flex-col h-full justify-center items-center gap-y-[22px] px-5 container">
                     <h1 className="text-center font-[900] text-[#f26200] text-[44px] leading-[50px] sm:text-[50px] sm:leading-[56px] md:text-[64px] md:leading-[80px] fade-in-up hero-heading">
                         {title}
                     </h1>
