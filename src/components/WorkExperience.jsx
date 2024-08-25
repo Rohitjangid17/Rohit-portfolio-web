@@ -14,7 +14,7 @@ const WorkExperience = () => {
                         <p className='text-black text-base'> Certainly! Here's a shorter version:As a frontend developer, I specialize in crafting user-friendly interfaces using HTML, CSS, and JavaScript frameworks like React and Vue.js. With a knack for problem-solving and an eye for detail, I collaborate effectively to deliver high-quality solutions on time. My passion for innovation drives me to stay updated on the latest frontend technologies, ensuring superior user experiences and business success.</p>
                     </div>
 
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-10'>
+                    <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-10'>
                         {experiences.map((experience) => (
                             <div key={experience.id} className="cursor-pointer bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:translate-y-[-0.5rem] hover:shadow-2xl">
                                 <div className="bg-[#f26200] text-white p-4 flex items-center gap-x-4">
