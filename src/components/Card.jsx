@@ -38,7 +38,7 @@ const Card = ({ title, icon, isHastag, hastagList, desciption, isTestimonial, is
                     <>
                         <div className='flex justify-between w-full mt-2'>
                             <Link className='text-[#f26200] font-medium text-base' target='_blank' to={projectLink}>Project Link</Link>
-                            <Link className='text-[#f26200] font-medium text-base' to={`/project-details/${projectId}`}>View More</Link>
+                            {/* <Link className='text-[#f26200] font-medium text-base'>View More</Link> */}
                         </div>
                     </>
                 ) : null}

@@ -55,11 +55,11 @@ export const navLinks = [
     //     title: "Sketches",
     //     path: "/sketches"
     // },
-    {
-        id: 6,
-        title: "Contact",
-        path: "/contact"
-    },
+    // {
+    //     id: 6,
+    //     title: "Contact",
+    //     path: "/contact"
+    // },
 ]
 
 export const skills = [

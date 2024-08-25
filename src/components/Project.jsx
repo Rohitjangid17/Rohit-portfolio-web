@@ -1,7 +1,6 @@
 import React from 'react';
 import { projects } from '../constants/Constant';
 import Card from './Card';
-import { Link } from 'react-router-dom';
 
 const Project = () => {
     return (
