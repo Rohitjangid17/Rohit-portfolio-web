@@ -88,6 +88,110 @@ header {
   animation-delay: 1200ms;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out;
+}
+
+.animate-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animate-delay-400 {
+  animation-delay: 400ms;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+/* styles.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bounceIn {
+  from {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out;
+  animation-delay: 1200ms;
+}
+
+.animate-slideUp {
+  animation: slideUp 1s ease-out;
+  animation-delay: 1200ms;
+}
+
+.animate-bounceIn {
+  animation: bounceIn 1s ease-out;
+  animation-delay: 1200ms;
+}
+
+
 @media screen and (max-width: 1024px) {
   header .nav-icon {
     font-size: 34px;
@@ -112,6 +216,7 @@ header {
     position: absolute;
     top: 58px;
     transition: left .3s ease;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
     // width: 250px;
   }
 
@@ -133,7 +238,6 @@ header {
       left: 0;
     }
   }
-
 }
 
 @tailwind base;

@@ -2,10 +2,8 @@ import React, { useEffect } from 'react';
 import Hero from '../components/Hero';
 import Overview from '../components/Overview';
 import Loader from '../components/Loader';
-import Contact from '../components/Contact';
 import Skill from '../components/Skill';
 import Project from '../components/Project';
-import Testimonials from '../components/Testimonials';
 import WorkExperience from '../components/WorkExperience';
 
 const Home = () => {
