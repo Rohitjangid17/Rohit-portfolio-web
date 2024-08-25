@@ -303,12 +303,46 @@ export const experiences = [
         image: cynosureLogo,
         title: "Cynosure Technologies Pvt Ltd",
         designation: "Junior Frontend Developer",
+        location: "Jaipur",
         duration: "Oct 2023 - Present",
-        isTestimonial: false,
-        isDesignation: true,
-        isDuration: true,
-        isHastag: false,
-        isExperience: true,
+        time: "Full Time",
+        achievements: [
+            {
+                id: 1,
+                title: "Improved User Interface",
+                description: "Redesigned the user interface for the main product, resulting in a 25% increase in user engagement.",
+                experienceId: 1
+            },
+            {
+                id: 2,
+                title: "Optimized Web Performance",
+                description: "Implemented code optimizations and reduced page load time by 30%, enhancing overall user experience.",
+                experienceId: 1
+            },
+            {
+                id: 3,
+                title: "Developed New Features",
+                description: "Led the development of several new features for the Shopiana platform, increasing customer satisfaction.",
+                experienceId: 2
+            },
+            {
+                id: 4,
+                title: "Completed Internship Projects",
+                description: "Successfully completed a series of projects during the internship, contributing to the team's development goals.",
+                experienceId: 3
+            },
+            {
+                id: 5,
+                title: "Achieved High Code Quality",
+                description: "Maintained a high standard of code quality during the internship, leading to fewer bugs and improved maintainability.",
+                experienceId: 3
+            }
+        ],
+        keyAchievements: [
+            "Redesigned main product UI, increasing user engagement by 25%",
+            "Reduced page load time by 30% through performance optimizations",
+            "Led development of new features, boosting customer satisfaction"
+        ]
     },
     {
         id: 2,
@@ -316,11 +350,45 @@ export const experiences = [
         title: "Shopiana",
         designation: "Frontend Developer",
         duration: "Sept 2022 - Aug 2023",
-        isTestimonial: false,
-        isDesignation: true,
-        isDuration: true,
-        isHastag: false,
-        isExperience: true,
+        location: "Jaipur",
+        time: "Full Time",
+        achievements: [
+            {
+                id: 1,
+                title: "Improved User Interface",
+                description: "Redesigned the user interface for the main product, resulting in a 25% increase in user engagement.",
+                experienceId: 1
+            },
+            {
+                id: 2,
+                title: "Optimized Web Performance",
+                description: "Implemented code optimizations and reduced page load time by 30%, enhancing overall user experience.",
+                experienceId: 1
+            },
+            {
+                id: 3,
+                title: "Developed New Features",
+                description: "Led the development of several new features for the Shopiana platform, increasing customer satisfaction.",
+                experienceId: 2
+            },
+            {
+                id: 4,
+                title: "Completed Internship Projects",
+                description: "Successfully completed a series of projects during the internship, contributing to the team's development goals.",
+                experienceId: 3
+            },
+            {
+                id: 5,
+                title: "Achieved High Code Quality",
+                description: "Maintained a high standard of code quality during the internship, leading to fewer bugs and improved maintainability.",
+                experienceId: 3
+            }
+        ],
+        keyAchievements: [
+            "Redesigned main product UI, leading to a 25% increase in user engagement",
+            "Optimized performance, reducing page load times by 30%",
+            "Contributed to new feature development enhancing customer satisfaction"
+        ]
     },
     {
         id: 3,
@@ -328,11 +396,45 @@ export const experiences = [
         title: "Shopiana",
         designation: "Traning / Internship",
         duration: "Jun 2022 - Aug 2022",
-        isTestimonial: false,
-        isDesignation: true,
-        isDuration: true,
-        isHastag: false,
-        isExperience: true,
+        location: "Jaipur",
+        time: "Full Time",
+        achievements: [
+            {
+                id: 1,
+                title: "Improved User Interface",
+                description: "Redesigned the user interface for the main product, resulting in a 25% increase in user engagement.",
+                experienceId: 1
+            },
+            {
+                id: 2,
+                title: "Optimized Web Performance",
+                description: "Implemented code optimizations and reduced page load time by 30%, enhancing overall user experience.",
+                experienceId: 1
+            },
+            {
+                id: 3,
+                title: "Developed New Features",
+                description: "Led the development of several new features for the Shopiana platform, increasing customer satisfaction.",
+                experienceId: 2
+            },
+            {
+                id: 4,
+                title: "Completed Internship Projects",
+                description: "Successfully completed a series of projects during the internship, contributing to the team's development goals.",
+                experienceId: 3
+            },
+            {
+                id: 5,
+                title: "Achieved High Code Quality",
+                description: "Maintained a high standard of code quality during the internship, leading to fewer bugs and improved maintainability.",
+                experienceId: 3
+            }
+        ],
+        keyAchievements: [
+            "Redesigned main product UI, leading to a 25% increase in user engagement",
+            "Optimized performance, reducing page load times by 30%",
+            "Contributed to new feature development enhancing customer satisfaction"
+        ]
     },
 ]
 

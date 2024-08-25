@@ -16,11 +16,34 @@ const WorkExperience = () => {
 
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-10'>
                         {experiences.map((experience) => (
-                            <Card key={experience.id} icon={experience.image} title={experience.title} desciption={experience.designation} duration={experience.duration} isTestimonial={experience.isTestimonial} isDesignation={experience.isDesignation} isDuration={experience.isDuration} isHastag={experience.isHastag} isExperience={experience.isExperience} />
+                            <div key={experience.id} className="cursor-pointer bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:translate-y-[-0.5rem] hover:shadow-2xl">
+                                <div className="bg-[#f26200] text-white p-4 flex items-center gap-x-4">
+                                    <img src={experience.image} alt={experience.title} className="w-12 h-12 rounded-full" />
+                                    <div>
+                                        <h3 className="text-xl text-white font-semibold">{experience.designation}</h3>
+                                        <p className="text-sm text-white">{experience.time} | {experience.location} | {experience.duration}</p>
+                                    </div>
+                                </div>
+                                <div className="p-6">
+                                    <ul className="list-disc list-inside space-y-2">
+                                        {experience.achievements.map((achievement) => (
+                                            <li key={achievement.id} className='text-[#757575]'>
+                                                <strong>{achievement.title}:</strong> {achievement.description}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                                <div className="bg-[#f5ecdb] p-4 text-center text-[#757575]">
+                                    <p>
+                                        <strong>Key Achievements:</strong> {experience.keyAchievements.join(', ')}
+                                    </p>
+                                </div>
+                            </div>
+                            // <Card key={experience.id} icon={experience.image} title={experience.title} desciption={experience.designation} duration={experience.duration} isTestimonial={experience.isTestimonial} isDesignation={experience.isDesignation} isDuration={experience.isDuration} isHastag={experience.isHastag} isExperience={experience.isExperience} />
                         ))}
                     </div>
                 </div>
-            </section>
+            </section >
             {/* Work experience section end here */}
         </>
     )
