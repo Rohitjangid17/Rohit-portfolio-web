@@ -244,56 +244,70 @@ export const projects = [
         name: "Shopiana - Admin Panel",
         description: "Shopiana - Admin Panel: Manage eCommerce effortlessly with Angular, Material Angular, and Tailwind CSS. Streamline operations and optimize retail experience.",
         img: shopianaAdminPanel,
-        hashTag: ["#Angular", "#Material Angular", "#Tailwindcss", "Admin Panel"],
-        projectUrl: "https://admin.shopiana.io/"
+        hashTag: ["Angular", "Material Angular", "Tailwindcss", "Javascript"],
+        projectUrl: "https://admin.shopiana.io/",
+        githubUrl: "",
+        companyLogo: shopianaLogo
     },
     {
         id: 2,
         name: "Amy Collections: Elevating Elegance Online",
         description: "Amy Collections: Redefining elegance with React.js, Material UI, and Tailwind CSS for seamless shopping. Discover timeless fashion effortlessly.",
         img: amycollection,
-        hashTag: ["#React.js", "#Material Ui", "#Tailwindcss", "Customer Website"],
-        projectUrl: "https://www.theamycollections.com/"
+        hashTag: ["React.js", "Material Ui", "Tailwindcss", "Javascript"],
+        projectUrl: "https://www.theamycollections.com/",
+        githubUrl: "",
+        companyLogo: shopianaLogo
     },
     {
         id: 3,
         name: "HR Management System",
         description: "The HR Management System optimizes HR processes with HTML, CSS, Bootstrap, and JQuery, ensuring a user-friendly interface for tasks like employee data management and attendance tracking.",
         img: hrManagment,
-        hashTag: ["#HTML", "#CSS", "#Bootstrap", "#JQuery"],
-        projectUrl: "https://ctpl.timelabs.in/"
+        hashTag: ["HTML", "CSS", "Bootstrap", "JQuery"],
+        projectUrl: "https://ctpl.timelabs.in/",
+        githubUrl: "",
+        companyLogo: cynosureLogo
     },
     {
         id: 4,
         name: "Shopiana Website",
         description: "Shopiana Website: Seamless online shopping with HTML, CSS, Bootstrap, and Next.js. Explore diverse products. Next.js boosts performance. Discover trends and deals!",
         img: shopianaWebsite,
-        hashTag: ["#HTML", "#CSS", "#Bootstrap", "#Next.js"],
-        projectUrl: "https://shopiana.io/"
+        hashTag: ["HTML", "CSS", "Bootstrap", "Next.js"],
+        projectUrl: "https://shopiana.io/",
+        githubUrl: "",
+        companyLogo: shopianaLogo
     },
     {
         id: 5,
         name: "Timelabs Product Website",
         description: "Timelabs Product Website: Innovate with HTML, CSS, Bootstrap, JQuery, and .NET Core. Streamline processes with user-friendly solutions. Visit now!",
         img: timelabsWebsite,
-        hashTag: ["#HTML", "#CSS", "#Bootstrap", "#JQuery", ".NET Core"],
-        projectUrl: "https://www.timelabs.in/"
+        hashTag: ["HTML", "CSS", "Bootstrap", "JQuery", "Dot Net Core"],
+        projectUrl: "https://www.timelabs.in/",
+        githubUrl: "",
+        companyLogo: cynosureLogo
     },
     {
         id: 6,
         name: "Cynosure Website",
         description: "Cynosure Website: Explore innovative solutions with HTML5, CSS, and JavaScript. Experience excellence in user-focused technology. Unlock new possibilities for your business.",
         img: cynosureWebsite,
-        hashTag: ["#HTML", "#CSS", "#Bootstrap", "#JQuery"],
-        projectUrl: "https://www.cynosuretech.com/"
+        hashTag: ["HTML", "CSS", "Bootstrap", "JQuery"],
+        projectUrl: "https://www.cynosuretech.com/",
+        githubUrl: "",
+        companyLogo: cynosureLogo
     },
     {
         id: 7,
         name: "Snack Game",
         description: "Snack Game: Navigate a hungry snake through a maze, gobbling up snacks! Built with HTML5, CSS, and JavaScript. Test your reflexes and strategy. Click to play!",
         img: snackGame,
-        hashTag: ["#HTML5", "#CSS", "#Javascript"],
-        projectUrl: "https://snake-game-kohl-nine.vercel.app/"
+        hashTag: ["HTML", "CSS", "Javascript"],
+        projectUrl: "https://snake-game-kohl-nine.vercel.app/",
+        githubUrl: "https://github.com/Rohitjangid17/snake-game",
+        companyLogo: ""
     },
 ]
 
