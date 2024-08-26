@@ -232,6 +232,19 @@ header {
     // width: 250px;
   }
 
+  /* Overlay effect when mobile menu is open */
+  .body-overlay::before {
+    content: "";
+    position: fixed;
+    background: #28262b40;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    pointer-events: none;
+  }
+
   .mobile-menu.open {
     left: 0;
     width: 250px;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from "react-router-dom";
 import { navLinks } from '../constants/Constant';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -8,6 +8,7 @@ const Header = () => {
   const location = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const mobileMenuRef = useRef(null);
 
   // Toggle mobile menu
   const toggleMobileMenu = () => {
@@ -22,7 +23,7 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      return scrollPosition > 100 ? setIsScrolled(true) : setIsScrolled(false);
+      setIsScrolled(scrollPosition > 100);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -31,6 +32,30 @@ const Header = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.classList.add('body-overlay');
+    } else {
+      document.body.classList.remove('body-overlay');
+    }
+  }, [isMobileMenuOpen]);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (mobileMenuRef.current && !mobileMenuRef.current.contains(event.target)) {
+        closeMobileMenu();
+      }
+    };
+
+    if (isMobileMenuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMobileMenuOpen]);
 
   return (
     <>
@@ -48,12 +73,16 @@ const Header = () => {
                 {isMobileMenuOpen ? (<CloseIcon className='nav-icon' />) : (<MenuIcon className='nav-icon' />)}
               </button>
             </div>
-            <ul className={`flex gap-6 mobile-menu ${isMobileMenuOpen ? 'open' : 'lg:flex'}`} onClick={closeMobileMenu}>
+            <ul
+              ref={mobileMenuRef}
+              className={`flex gap-6 mobile-menu ${isMobileMenuOpen ? 'open' : 'lg:flex'}`}
+            >
               {navLinks.map((navLink) => (
                 <li key={navLink.id}>
                   <Link
                     className={`text-base text-[#757575] hover:text-[#f26200] hover:transition-all duration-300 font-normal ${location.pathname === navLink.path ? 'text-[#f26200]' : ''}`}
                     to={navLink.path}
+                    onClick={closeMobileMenu} // Close menu on link click
                   >
                     {navLink.title}
                   </Link>
