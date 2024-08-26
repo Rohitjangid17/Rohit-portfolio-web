@@ -17,7 +17,7 @@ const Project = () => {
 
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10'>
                         {projects.map((project) => (
-                            <div key={project.id} className="w-full bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl card-entrance">
+                            <div key={project.id} className="cursor-pointer w-full bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl card-entrance">
                                 <div className="relative">
                                     <img src={project.img} alt="Project Screenshot" className="w-full h-48 object-cover transition-transform duration-300 ease-in-out hover:scale-110" />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-30"></div>

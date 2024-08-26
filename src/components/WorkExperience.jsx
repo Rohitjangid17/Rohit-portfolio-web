@@ -19,7 +19,7 @@ const WorkExperience = () => {
                             <div className="absolute inset-y-0 left-1/2 w-1 bg-gray-300"></div>
                             <div className="space-y-16">
                                 {experiences.map((experience) => (
-                                    <div key={experience.id} className="relative flex items-start space-x-6">
+                                    <div key={experience.id} className="cursor-pointer relative flex items-start space-x-6">
                                         <div className="relative w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full flex items-center justify-center text-white shadow-lg transition-transform transform hover:scale-125">
                                             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" /></svg>
                                         </div>
