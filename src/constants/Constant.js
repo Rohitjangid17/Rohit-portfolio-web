@@ -318,8 +318,9 @@ export const experiences = [
         title: "Cynosure Technologies Pvt Ltd",
         designation: "Junior Frontend Developer",
         location: "Jaipur",
+        description: "",
         duration: "Oct 2023 - Present",
-        time: "Full Time",
+        employementType: "Full Time",
         achievements: [
             {
                 id: 1,
@@ -352,10 +353,22 @@ export const experiences = [
                 experienceId: 3
             }
         ],
-        keyAchievements: [
-            "Redesigned main product UI, increasing user engagement by 25%",
-            "Reduced page load time by 30% through performance optimizations",
-            "Led development of new features, boosting customer satisfaction"
+        keyProjects: [
+            {
+                id: 1,
+                title: "HR Management System",
+                description: "Test"
+            },
+            {
+                id: 2,
+                title: "Timelabs Product Website",
+                description: "Test"
+            },
+            {
+                id: 3,
+                title: "Cynosure Website",
+                description: "Test"
+            },
         ]
     },
     {
@@ -363,9 +376,10 @@ export const experiences = [
         image: shopianaLogo,
         title: "Shopiana",
         designation: "Frontend Developer",
+        description: "",
         duration: "Sept 2022 - Aug 2023",
         location: "Jaipur",
-        time: "Full Time",
+        employementType: "Full Time",
         achievements: [
             {
                 id: 1,
@@ -398,10 +412,17 @@ export const experiences = [
                 experienceId: 3
             }
         ],
-        keyAchievements: [
-            "Redesigned main product UI, leading to a 25% increase in user engagement",
-            "Optimized performance, reducing page load times by 30%",
-            "Contributed to new feature development enhancing customer satisfaction"
+        keyProjects: [
+            {
+                id: 1,
+                title: "Shopiana - Admin Panel",
+                description: "Test"
+            },
+            {
+                id: 2,
+                title: "Amy Collections: Elevating Elegance Online",
+                description: "Test"
+            }
         ]
     },
     {
@@ -409,9 +430,10 @@ export const experiences = [
         image: shopianaLogo,
         title: "Shopiana",
         designation: "Traning / Internship",
+        description: "",
         duration: "Jun 2022 - Aug 2022",
         location: "Jaipur",
-        time: "Full Time",
+        employementType: "Full Time",
         achievements: [
             {
                 id: 1,
@@ -444,10 +466,12 @@ export const experiences = [
                 experienceId: 3
             }
         ],
-        keyAchievements: [
-            "Redesigned main product UI, leading to a 25% increase in user engagement",
-            "Optimized performance, reducing page load times by 30%",
-            "Contributed to new feature development enhancing customer satisfaction"
+        keyProjects: [
+            {
+                id: 1,
+                title: "Shopiana Website",
+                description: "Test"
+            }
         ]
     },
 ]
