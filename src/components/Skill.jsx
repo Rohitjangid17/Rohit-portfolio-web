@@ -14,9 +14,13 @@ const Skill = () => {
                         <p className='text-black text-base'>I'm a frontend developer proficient in HTML, CSS, and JavaScript, with expertise in frameworks like React.js, Angular, and Next.js. My focus on UI/UX principles ensures intuitive, visually appealing web applications. Experienced in Git and modern development tools, I prioritize delivering innovative solutions that surpass client needs.</p>
                     </div>
 
-                    <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
+                    <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-10'>
                         {skills.map((skill) => (
-                            <Card key={skill.id} icon={skill.icon} title={skill.skill} isTestimonial={false} isHastag={false} />
+                            <div key={skill.id} className="cursor-pointer bg-[#f5ecdb] border border-[#f26200] shadow-md rounded-lg p-6 w-full transition-transform duration-300 ease-in-out transform card-hover-effect">
+                                <img src={skill.icon} className="mb-4 object-cover w-20 h-auto mx-auto p-2" alt={skill.skill} />
+                                <h5 className="text-[#f26200] text-xl font-semibold mb-2 pb-1 text-center">{skill.skill}</h5>
+                            </div>
+                            // <Card key={skill.id} icon={skill.icon} title={skill.skill} isTestimonial={false} isHastag={false} />
                         ))}
                     </div>
                 </div>

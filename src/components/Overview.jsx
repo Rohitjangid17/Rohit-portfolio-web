@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from './Card';
 import { overviews } from '../constants/Constant';
 
 function Overview() {
@@ -14,9 +13,13 @@ function Overview() {
                         <p className='text-black text-base'>I am a passionate and detail-oriented front-end developer with a strong foundation in web technologies. My journey in the world of web development has been marked by hands-on experience, creativity, and a commitment to delivering visually appealing and intuitive user interfaces. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!</p>
                     </div>
 
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-10'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-10'>
                         {overviews.map((overview) => (
-                            <Card key={overview.id} icon={overview.icon} title={overview.skill} isTestimonial={false} isHastag={false} />
+                            <div key={overview.id} className="cursor-pointer bg-[#f5ecdb] border border-[#f26200] shadow-md rounded-lg p-6 w-full transition-transform duration-300 ease-in-out transform card-hover-effect">
+                                <img src={overview.icon} className="mb-4 object-cover w-20 h-auto mx-auto p-2" alt={overview.skill} />
+                                <h5 className="text-[#f26200] text-xl font-semibold mb-2 pb-1 text-center">{overview.skill}</h5>
+                            </div>
+                            // <Card key={overview.id} icon={overview.icon} title={overview.skill} isTestimonial={false} isHastag={false} />
                         ))}
                     </div>
                 </div>

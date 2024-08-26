@@ -179,7 +179,7 @@ export const overviews = [
     {
         id: 1,
         icon: frontendIcon,
-        skill: "Front-End Web Development"
+        skill: "FrontEnd Development"
     },
     {
         id: 2,
@@ -211,11 +211,11 @@ export const overviews = [
         icon: htmlIcon,
         skill: "Performance Optimization"
     },
-    {
-        id: 8,
-        icon: htmlIcon,
-        skill: "Code Maintenance and Documentation"
-    },
+    // {
+    //     id: 8,
+    //     icon: htmlIcon,
+    //     skill: "Code Maintenance and Documentation"
+    // },
     {
         id: 9,
         icon: htmlIcon,
