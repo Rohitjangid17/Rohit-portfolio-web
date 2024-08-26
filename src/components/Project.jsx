@@ -116,19 +116,19 @@ export default Project;
 
 //                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mt-10'>
 //                         {projects.map((project) => (
-//                             <div key={project.id} class="w-full bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl card-entrance">
-//                                 <div class="relative">
-//                                     <img src={project.img} alt="Project Screenshot" class="w-full h-48 object-cover transition-transform duration-300 ease-in-out hover:scale-110" />
-//                                     <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-30"></div>
-//                                     <div class="absolute bottom-0 left-0 right-0 p-4 flex items-center justify-between">
-//                                         <h3 class="text-white text-xl font-semibold">{project.name}</h3>
-//                                         <img src="https://www.timelabs.in//images/banner/access_control.webp" alt="Project Logo" class="w-14 h-14 rounded-full border-4 border-white bg-gray-900 p-2 rotate-in" />
+//                             <div key={project.id} className="w-full bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl card-entrance">
+//                                 <div className="relative">
+//                                     <img src={project.img} alt="Project Screenshot" className="w-full h-48 object-cover transition-transform duration-300 ease-in-out hover:scale-110" />
+//                                     <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-30"></div>
+//                                     <div className="absolute bottom-0 left-0 right-0 p-4 flex items-center justify-between">
+//                                         <h3 className="text-white text-xl font-semibold">{project.name}</h3>
+//                                         <img src="https://www.timelabs.in//images/banner/access_control.webp" alt="Project Logo" className="w-14 h-14 rounded-full border-4 border-white bg-gray-900 p-2 rotate-in" />
 //                                     </div>
 //                                 </div>
 
-//                                 <div class="p-6">
-//                                     <p class="text-gray-700 text-sm mb-4">{project.description}</p>
-//                                     <ul class="flex flex-wrap gap-2 mb-4">
+//                                 <div className="p-6">
+//                                     <p className="text-gray-700 text-sm mb-4">{project.description}</p>
+//                                     <ul className="flex flex-wrap gap-2 mb-4">
 //                                         {
 //                                             project.hashTag.map((tag) => {
 //                                                 // Function to determine class based on tag value
@@ -172,20 +172,20 @@ export default Project;
 //                                         }
 //                                     </ul>
 
-//                                     {/* <ul class="flex flex-wrap gap-2 mb-4">
-//                                         <li class="bg-blue-200 text-blue-800 rounded-full px-3 py-1 text-xs font-medium">HTML</li>
-//                                         <li class="bg-green-200 text-green-800 rounded-full px-3 py-1 text-xs font-medium">CSS</li>
-//                                         <li class="bg-yellow-200 text-yellow-800 rounded-full px-3 py-1 text-xs font-medium">JavaScript</li>
+//                                     {/* <ul className="flex flex-wrap gap-2 mb-4">
+//                                         <li className="bg-blue-200 text-blue-800 rounded-full px-3 py-1 text-xs font-medium">HTML</li>
+//                                         <li className="bg-green-200 text-green-800 rounded-full px-3 py-1 text-xs font-medium">CSS</li>
+//                                         <li className="bg-yellow-200 text-yellow-800 rounded-full px-3 py-1 text-xs font-medium">JavaScript</li>
 //                                     </ul> */}
-//                                     <div class="flex justify-center gap-4">
-//                                         <Link to={project.projectUrl} target="_blank" class="bg-[#f26200] text-white rounded-full px-6 py-1 text-base font-medium transition-transform duration-300 ease-in-out shadow-pulse">Live Demo</Link>
+//                                     <div className="flex justify-center gap-4">
+//                                         <Link to={project.projectUrl} target="_blank" className="bg-[#f26200] text-white rounded-full px-6 py-1 text-base font-medium transition-transform duration-300 ease-in-out shadow-pulse">Live Demo</Link>
 //                                         {(
-//                                             project.githubUrl === "" ? "" : <Link href={project.githubUrl} target="_blank" class="bg-[#f26200] text-white rounded-full px-6 py-1 text-base font-medium transition-transform duration-300 ease-in-out shadow-pulse">GitHub</Link>
+//                                             project.githubUrl === "" ? "" : <Link href={project.githubUrl} target="_blank" className="bg-[#f26200] text-white rounded-full px-6 py-1 text-base font-medium transition-transform duration-300 ease-in-out shadow-pulse">GitHub</Link>
 //                                         )}
 //                                     </div>
 //                                 </div>
-//                                 <div class="bg-[#f5ecdb] text-center py-2">
-//                                     <p class="text-[#757575] text-xs">Completed: July 2024</p>
+//                                 <div className="bg-[#f5ecdb] text-center py-2">
+//                                     <p className="text-[#757575] text-xs">Completed: July 2024</p>
 //                                 </div>
 //                             </div>
 //                             // <Card key={project.id} projectId={project.id} projectLink={project.projectUrl} icon={project.img} title={project.name} desciption={project.description} hastagList={project.hashTag} isTestimonial={false} isHastag={true} isProductDetails={true} />

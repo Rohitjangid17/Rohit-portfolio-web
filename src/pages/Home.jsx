@@ -5,6 +5,7 @@ import Loader from '../components/Loader';
 import Skill from '../components/Skill';
 import Project from '../components/Project';
 import WorkExperience from '../components/WorkExperience';
+import Contact from '../components/Contact';
 
 const Home = () => {
     const title = "Welcome to Rohit's Portfolio";
@@ -27,7 +28,7 @@ const Home = () => {
             <Skill />
             <Project />
             {/* <Testimonials /> */}
-            {/* <Contact /> */}
+            <Contact />
             <Loader />
         </>
     )
