@@ -7,13 +7,14 @@ import typescriptIcon from '../assets/Icons/typescript_icon.svg';
 import angularIcon from '../assets/Icons/angular_icon.svg';
 import reactIcon from '../assets/Icons/react_icon.svg';
 import jqueryIcon from '../assets/Icons/jquery_icon.svg';
-import csharpIcon from '../assets/Icons/csharp_icon.svg';
-import reactQueryIcon from '../assets/Icons/react_query.svg';
 import gitIcon from '../assets/Icons/git_icon.svg';
 import githubIcon from '../assets/Icons/github_icon.svg';
-import msSqlIcon from '../assets/Icons/ms_sql_icon.svg';
 import scssIcon from '../assets/Icons/scss_icon.svg';
 import nextjsIcon from '../assets/Icons/nextjs_icon.svg';
+import reduxIcon from '../assets/Icons/redux.svg'
+import materialuiIcon from '../assets/Icons/material_ui.svg'
+import axiosIcon from '../assets/Icons/axios_icon.svg'
+import rxjsIcon from '../assets/Icons/rxjs_icon.svg'
 import frontendIcon from '../assets/Icons/frontend_development_icon.svg';
 import shopianaAdminPanel from '../assets/projects/shopiana_admin_panel.png';
 import amycollection from '../assets/projects/amycollection.png';
@@ -122,14 +123,14 @@ export const skills = [
     {
         id: 9,
         title: "Redux",
-        image: reactIcon,
+        image: reduxIcon,
         width: 150,
         height: 150
     },
     {
         id: 10,
         title: "Material UI",
-        image: reactIcon,
+        image: materialuiIcon,
         width: 150,
         height: 150
     },
@@ -143,7 +144,7 @@ export const skills = [
     {
         id: 12,
         title: "RxJS",
-        image: angularIcon,
+        image: rxjsIcon,
         width: 150,
         height: 150
     },
@@ -171,14 +172,14 @@ export const skills = [
     {
         id: 16,
         title: "Axios",
-        image: javascriptIcon,
+        image: axiosIcon,
         width: 150,
         height: 150
     },
     {
         id: 17,
         title: "Ajax",
-        image: javascriptIcon,
+        image: jqueryIcon,
         width: 150,
         height: 150
     },
