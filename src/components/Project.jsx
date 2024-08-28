@@ -1,5 +1,5 @@
 import React from 'react';
-import { projects } from '../constants/Constant';
+import { projects } from '../constants/constant';
 import { Link } from 'react-router-dom';
 // import Card from './Card';
 
@@ -19,11 +19,11 @@ const Project = () => {
                         {projects.map((project) => (
                             <div key={project.id} className="cursor-pointer w-full bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl card-entrance">
                                 <div className="relative">
-                                    <img src={project.img} alt="Project Screenshot" className="w-full h-48 object-cover transition-transform duration-300 ease-in-out hover:scale-110" />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-30"></div>
+                                    <img src={project.img} alt={project.name} className="w-full h-48 object-cover transition-transform duration-300 ease-in-out hover:scale-110" />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-60"></div>
                                     <div className="absolute bottom-0 left-0 right-0 p-4 flex items-center justify-between">
                                         <h3 className="text-white text-xl font-semibold text-shadow-md">{project.name}</h3>
-                                        <img src="https://www.timelabs.in//images/banner/access_control.webp" alt="Project Logo" className="w-14 h-14 rounded-full border-4 border-white bg-gray-900 p-2 rotate-in" />
+                                        {/* <img src="https://www.timelabs.in//images/banner/access_control.webp" alt="Project Logo" className="w-14 h-14 rounded-full border-4 border-white bg-gray-900 p-2 rotate-in" /> */}
                                     </div>
                                 </div>
 

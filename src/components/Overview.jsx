@@ -1,5 +1,5 @@
 import React from 'react';
-import { overviews } from '../constants/Constant';
+import { overviews } from '../constants/constant';
 
 function Overview() {
     return (

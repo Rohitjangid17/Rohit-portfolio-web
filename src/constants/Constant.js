@@ -64,114 +64,137 @@ export const navLinks = [
 
 export const skills = [
     {
-        id: "html",
-        icon: htmlIcon,
-        skill: "HTML"
+        id: 1,
+        title: "HTML",
+        image: htmlIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "css",
-        icon: cssIcon,
-        skill: "CSS"
+        id: 2,
+        title: "CSS",
+        image: cssIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "scss",
-        icon: scssIcon,
-        skill: "SCSS"
+        id: 3,
+        title: "SCSS",
+        image: scssIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "tailwindcss",
-        icon: tailwindIcon,
-        skill: "Tailwind CSS"
+        id: 4,
+        title: "Tailwind",
+        image: tailwindIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "bootstrap",
-        icon: bootstrapIcon,
-        skill: "Bootstrap"
+        id: 5,
+        title: "Bootstrap",
+        image: bootstrapIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "javascript",
-        icon: javascriptIcon,
-        skill: "Javascript"
+        id: 6,
+        title: "Javascript",
+        image: javascriptIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "typescript",
-        icon: typescriptIcon,
-        skill: "Typescript"
+        id: 7,
+        title: "Typescript",
+        image: typescriptIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "angular",
-        icon: angularIcon,
-        skill: "Angular"
+        id: 8,
+        title: "React.js",
+        image: reactIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "angularMaterial",
-        icon: angularIcon,
-        skill: "Angular Material"
+        id: 9,
+        title: "Redux",
+        image: reactIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "angularCLI",
-        icon: angularIcon,
-        skill: "Angular CLI"
+        id: 10,
+        title: "Material UI",
+        image: reactIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "react",
-        icon: reactIcon,
-        skill: "React.js"
+        id: 11,
+        title: "Angular",
+        image: angularIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "next",
-        icon: nextjsIcon,
-        skill: "Next.js"
+        id: 12,
+        title: "RxJS",
+        image: angularIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "jquery",
-        icon: jqueryIcon,
-        skill: "JQuery"
+        id: 13,
+        title: "Angular Material",
+        image: angularIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "reactQuery",
-        icon: reactQueryIcon,
-        skill: "React Query"
+        id: 14,
+        title: "Next.js",
+        image: nextjsIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "axios",
-        icon: htmlIcon,
-        skill: "Axios"
+        id: 15,
+        title: "JQuery",
+        image: jqueryIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "ajax",
-        icon: htmlIcon,
-        skill: "Ajax"
+        id: 16,
+        title: "Axios",
+        image: javascriptIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "reactHooks",
-        icon: reactIcon,
-        skill: "React Hooks"
-    },
-    // {
-    //     id: "csharp",
-    //     icon: csharpIcon,
-    //     skill: "C#"
-    // },
-    // {
-    //     id: "dotNetCore",
-    //     icon: htmlIcon,
-    //     skill: "ASP.NET Core"
-    // },
-    // {
-    //     id: "msSql",
-    //     icon: msSqlIcon,
-    //     skill: "MS SQL"
-    // },
-    {
-        id: "git",
-        icon: gitIcon,
-        skill: "Git"
+        id: 17,
+        title: "Ajax",
+        image: javascriptIcon,
+        width: 150,
+        height: 150
     },
     {
-        id: "gitHub",
-        icon: githubIcon,
-        skill: "Git Hub"
+        id: 18,
+        title: "Git",
+        image: gitIcon,
+        width: 150,
+        height: 150
+    },
+    {
+        id: 19,
+        title: "Git Hub",
+        image: githubIcon,
+        width: 150,
+        height: 150
     },
 ]
 

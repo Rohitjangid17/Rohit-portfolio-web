@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { navLinks } from '../constants/Constant';
+import { navLinks } from '../constants/constant';
 import { Link } from 'react-router-dom';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
