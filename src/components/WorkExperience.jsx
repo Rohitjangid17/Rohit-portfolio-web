@@ -19,18 +19,14 @@ const WorkExperience = () => {
                             <div className="absolute inset-y-0 left-1/2 w-1 bg-gray-300"></div>
                             <div className="space-y-16">
                                 {experiences.map((experience) => (
-                                    <div key={experience.id} className="cursor-pointer relative flex items-start space-x-6">
-                                        <div className="relative w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full flex items-center justify-center text-white shadow-lg transition-transform transform hover:scale-125">
+                                    <div key={experience.id} className="cursor-pointer relative flex items-start space-x-0 flex-wrap space-y-6 sm:space-y-0 sm:space-x-6 sm:flex-nowrap">
+                                        <div className="relative w-12 h-12 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full flex items-center justify-center text-white shadow-lg transition-transform transform hover:scale-125 mx-auto">
                                             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" /></svg>
                                         </div>
                                         <div className="bg-[#f5ecdb] shadow-xl rounded-lg p-6 w-full border border-gray-200 scale-transition">
                                             <h3 className="text-2xl font-semibold text-[#f26200]">{experience.designation} at {experience.title}</h3>
                                             <p className="text-gray-600 mt-1">{experience.duration} | {experience.location} | {experience.employementType} </p>
                                             <p className="text-gray-700 mt-2 mb-4">Developed and maintained scalable web applications with a focus on performance and responsiveness. Collaborated with cross-functional teams to deliver high-quality user experiences.</p>
-                                            {/* <div className="flex items-center space-x-4">
-                                                <span className="text-gray-700"><strong>Location:</strong> San Francisco, CA</span>
-                                                <span className="text-gray-700"><strong>Employment Type:</strong> Full-time</span>
-                                            </div> */}
                                             <ul className="list-disc list-inside mt-4 text-gray-700 space-y-2">
                                                 {experience.achievements.map((achievement) => (
                                                     <li key={achievement.id}>{achievement.description}</li>
