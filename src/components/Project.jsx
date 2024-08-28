@@ -1,5 +1,5 @@
 import React from 'react';
-import { projects } from '../constants/constant';
+import { projects } from '../constants/Constant';
 import { Link } from 'react-router-dom';
 // import Card from './Card';
 

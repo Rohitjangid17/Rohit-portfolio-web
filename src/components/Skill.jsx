@@ -1,5 +1,5 @@
 import React from 'react';
-import { skills } from "../constants/constant";
+import { skills } from "../constants/Constant";
 // import Card from './Card';
 
 const Skill = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import { testimonials } from "../constants/constant";
+import { testimonials } from "../constants/Constant";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
