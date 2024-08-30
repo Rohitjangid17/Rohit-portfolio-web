@@ -34,11 +34,7 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-    if (isMobileMenuOpen) {
-      document.body.classList.add('body-overlay');
-    } else {
-      document.body.classList.remove('body-overlay');
-    }
+    return isMobileMenuOpen ? document.body.classList.add('body-overlay') : document.body.classList.remove('body-overlay');
   }, [isMobileMenuOpen]);
 
   useEffect(() => {

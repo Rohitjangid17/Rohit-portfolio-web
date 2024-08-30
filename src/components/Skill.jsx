@@ -14,7 +14,7 @@ const Skill = () => {
                         <p className='text-black text-base'>I'm a frontend developer proficient in HTML, CSS, and JavaScript, with expertise in frameworks like React.js, Angular, and Next.js. My focus on UI/UX principles ensures intuitive, visually appealing web applications. Experienced in Git and modern development tools, I prioritize delivering innovative solutions that surpass client needs.</p>
                     </div>
 
-                    <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-x-5 gap-y-10 mt-10'>
+                    <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-x-5 gap-y-10 mt-10'>
                         {skills.map((skill) => (
                             <div key={skill.id} className="cursor-pointer w-full flex flex-col gap-y-4">
                                 <img src={skill.image} width={skill.width} height={skill.height} className="w-14 h-14 mx-auto" alt={skill.title} />
