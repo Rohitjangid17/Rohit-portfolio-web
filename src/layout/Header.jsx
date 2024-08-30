@@ -24,13 +24,13 @@ const Header = () => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       setIsScrolled(scrollPosition > 100);
-    };
+    }
 
     window.addEventListener('scroll', handleScroll);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
-    };
+    }
   }, []);
 
   useEffect(() => {
@@ -42,7 +42,7 @@ const Header = () => {
       if (mobileMenuRef.current && !mobileMenuRef.current.contains(event.target)) {
         closeMobileMenu();
       }
-    };
+    }
 
     if (isMobileMenuOpen) {
       document.addEventListener('mousedown', handleClickOutside);
@@ -50,7 +50,7 @@ const Header = () => {
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
-    };
+    }
   }, [isMobileMenuOpen]);
 
   return (
@@ -58,9 +58,7 @@ const Header = () => {
       <header className={`bg-[#f5ecdb] relative py-3 sticky top-0 z-10 ${isMobileMenuOpen ? 'mobile-menu-open' : ''} ${isScrolled ? 'scrolled' : ''}`}>
         <div className='container mx-auto'>
           <nav className='flex justify-between items-center px-5'>
-            <div>
-              <Link to="/" className='text-[#f26200] text-2xl font-semibold'>ROHIT</Link>
-            </div>
+            <Link to="/" className='text-[#f26200] text-2xl font-semibold nav-logo'>ROHIT</Link>
             <div className="block lg:hidden">
               <button
                 onClick={toggleMobileMenu}
@@ -78,7 +76,7 @@ const Header = () => {
                   <Link
                     className={`text-base text-[#757575] hover:text-[#f26200] hover:transition-all duration-300 font-normal ${location.pathname === navLink.path ? 'text-[#f26200]' : ''}`}
                     to={navLink.path}
-                    onClick={closeMobileMenu} // Close menu on link click
+                    onClick={closeMobileMenu}
                   >
                     {navLink.title}
                   </Link>

@@ -24,8 +24,12 @@ import timelabsWebsite from '../assets/projects/timelabs_website.png';
 import cynosureWebsite from '../assets/projects/cynosure_website.png';
 import snackGame from '../assets/projects/snack_game.png';
 import shopianaLogo from '../assets/experience/shopiana_logo.jpg';
-// import timelabsLogo from '../assets/experience/Timelabs_logo.png';
 import cynosureLogo from '../assets/experience/Cynosure_logo.svg';
+import apiIntegration from '../assets/Icons/api_integration.png';
+import performanceOptmization from '../assets/Icons/performance_optimization.png';
+import projectCollaboration from '../assets/Icons/project_collaboration.png';
+import digitalPresence from '../assets/Icons/digital_presence.png';
+import sketchIcon from '../assets/Icons/sketch.png';
 
 import personImage from "../assets/person.jpg";
 import sketch1 from "../assets/sketches/sketch_1.jpg"
@@ -202,64 +206,74 @@ export const skills = [
 export const overviews = [
     {
         id: 1,
-        icon: frontendIcon,
-        skill: "FrontEnd Development"
+        title: "FrontEnd Development",
+        image: frontendIcon,
+        width: 150,
+        height: 150
     },
     {
         id: 2,
-        icon: reactIcon,
-        skill: "React Development"
+        title: "React Development",
+        image: reactIcon,
+        width: 150,
+        height: 150
     },
     {
         id: 3,
-        icon: angularIcon,
-        skill: "Angular Development"
+        title: "Angular Development",
+        image: angularIcon,
+        width: 150,
+        height: 150
     },
     {
         id: 4,
-        icon: nextjsIcon,
-        skill: "Next.js Development"
+        title: "Next.js Development",
+        image: nextjsIcon,
+        width: 150,
+        height: 150
     },
     {
         id: 5,
-        icon: jqueryIcon,
-        skill: "Jquery Development"
+        title: "Jquery Development",
+        image: jqueryIcon,
+        width: 150,
+        height: 150
     },
     {
         id: 6,
-        icon: htmlIcon,
-        skill: "API Integration"
+        title: "API Integration",
+        image: apiIntegration,
+        width: 150,
+        height: 150
     },
     {
         id: 7,
-        icon: htmlIcon,
-        skill: "Performance Optimization"
+        title: "Performance Optimization",
+        image: performanceOptmization,
+        width: 150,
+        height: 150
     },
-    // {
-    //     id: 8,
-    //     icon: htmlIcon,
-    //     skill: "Code Maintenance and Documentation"
-    // },
+    {
+        id: 8,
+        title: "Project Collaboration",
+        image: projectCollaboration,
+        width: 150,
+        height: 150
+    },
     {
         id: 9,
-        icon: htmlIcon,
-        skill: "Project Collaboration"
+        title: "Digital Presence",
+        image: digitalPresence,
+        width: 150,
+        height: 150
     },
     {
         id: 10,
-        icon: htmlIcon,
-        skill: "Photography"
-    },
-    {
-        id: 11,
-        icon: htmlIcon,
-        skill: "Digital Presence"
-    },
-    {
-        id: 12,
-        icon: htmlIcon,
-        skill: "Sketching"
-    },
+        title: "Sketching",
+        image: sketchIcon,
+        width: 150,
+        height: 150
+    }
 ]
 
 export const projects = [
