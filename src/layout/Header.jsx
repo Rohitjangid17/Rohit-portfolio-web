@@ -74,7 +74,7 @@ const Header = () => {
               {navLinks.map((navLink) => (
                 <li key={navLink.id}>
                   <Link
-                    className={`text-base text-[#757575] hover:text-[#f26200] hover:transition-all duration-300 font-normal ${location.pathname === navLink.path ? 'text-[#f26200]' : ''}`}
+                    className={`text-base text-[#757575] hover:text-[#f26200] hover:transition-all duration-300 font-medium ${location.pathname === navLink.path ? 'text-[#f26200]' : ''}`}
                     to={navLink.path}
                     onClick={closeMobileMenu}
                   >
