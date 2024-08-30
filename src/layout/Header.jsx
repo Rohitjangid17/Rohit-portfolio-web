@@ -57,8 +57,8 @@ const Header = () => {
     <>
       <header className={`bg-[#f5ecdb] relative py-3 sticky top-0 z-10 ${isMobileMenuOpen ? 'mobile-menu-open' : ''} ${isScrolled ? 'scrolled' : ''}`}>
         <div className='container mx-auto'>
-          <nav className='flex justify-between items-center px-5'>
-            <Link to="/" className='text-[#f26200] text-2xl font-semibold nav-logo'>ROHIT</Link>
+          <nav className='flex justify-between items-center px-5 sm:px-0'>
+            <Link to="/" className='text-[#f26200] text-2xl font-semibold font-mono'>रोहित जांगिड़_</Link>
             <div className="block lg:hidden">
               <button
                 onClick={toggleMobileMenu}
