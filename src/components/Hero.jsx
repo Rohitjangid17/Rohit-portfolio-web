@@ -24,13 +24,13 @@ const Hero = ({ title, description, iscontent }) => {
                             </button>
                         </a>
                         <div className='flex items-center gap-x-5'>
-                            <Link to="https://www.linkedin.com/in/rohit-jangid-984729225/" className='text-[#f26200] text-3xl animate-bounceIn' target="_blank">
+                            <Link aria-label="Linkedin" to="https://www.linkedin.com/in/rohit-jangid-984729225/" className='text-[#f26200] text-3xl animate-bounceIn' target="_blank">
                                 <LinkedInIcon />
                             </Link>
-                            <Link to="https://github.com/Rohitjangid17" className='text-[#f26200] text-3xl animate-bounceIn' target="_blank">
+                            <Link aria-label="Github" to="https://github.com/Rohitjangid17" className='text-[#f26200] text-3xl animate-bounceIn' target="_blank">
                                 <GitHubIcon />
                             </Link>
-                            <Link to="https://www.instagram.com/monu_jangid76/" className='text-[#f26200] text-3xl animate-bounceIn' target="_blank">
+                            <Link aria-label="Instagram" to="https://www.instagram.com/monu_jangid76/" className='text-[#f26200] text-3xl animate-bounceIn' target="_blank">
                                 <InstagramIcon />
                             </Link>
                         </div>

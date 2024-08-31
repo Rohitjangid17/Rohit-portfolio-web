@@ -9,8 +9,8 @@ const WorkExperience = () => {
             <section className='py-10 bg-white px-5 sm:px-0'>
                 <div className='container mx-auto'>
                     <div className='flex flex-col gap-y-1'>
-                        <h3 className='text-[#757575] text-sm sm:text-base'>TECHNOLOGIES WHAT I HAVE DONE SO FAR</h3>
-                        <h4 className='text-[#f26200] text-[34px] sm:text-[44px] font-semibold'>Work Experience</h4>
+                        <h2 className='text-[#757575] text-sm sm:text-base'>TECHNOLOGIES WHAT I HAVE DONE SO FAR</h2>
+                        <h2 className='text-[#f26200] text-[34px] sm:text-[44px] font-semibold'>Work Experience</h2>
                         <p className='text-black text-base'> Certainly! Here's a shorter version:As a frontend developer, I specialize in crafting user-friendly interfaces using HTML, CSS, and JavaScript frameworks like React and Vue.js. With a knack for problem-solving and an eye for detail, I collaborate effectively to deliver high-quality solutions on time. My passion for innovation drives me to stay updated on the latest frontend technologies, ensuring superior user experiences and business success.</p>
                     </div>
 
@@ -24,7 +24,7 @@ const WorkExperience = () => {
                                             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" /></svg>
                                         </div>
                                         <div className="bg-[#f5ecdb] shadow-xl rounded-lg p-6 w-full border border-gray-200 scale-transition">
-                                            <h3 className="text-2xl font-semibold text-[#f26200]">{experience.designation} at {experience.title}</h3>
+                                            <h2 className="text-2xl font-semibold text-[#f26200]">{experience.designation} at {experience.title}</h2>
                                             <p className="text-gray-600 mt-1">{experience.duration} | {experience.location} | {experience.employementType} </p>
                                             <p className="text-gray-700 mt-2 mb-4">Developed and maintained scalable web applications with a focus on performance and responsiveness. Collaborated with cross-functional teams to deliver high-quality user experiences.</p>
                                             <ul className="list-disc list-inside mt-4 text-gray-700 space-y-2">
@@ -33,7 +33,7 @@ const WorkExperience = () => {
                                                 ))}
                                             </ul>
                                             <div className="mt-4">
-                                                <h4 className="text-lg font-semibold text-gray-800">Key Projects:</h4>
+                                                <h2 className="text-lg font-semibold text-gray-800">Key Projects:</h2>
                                                 <ul className="list-disc list-inside mt-2 text-gray-700 space-y-1">
                                                     {experience.keyProjects.map((keyProject) => (
                                                         <li key={keyProject.id}><strong>{keyProject.title}:</strong> {keyProject.description}</li>
