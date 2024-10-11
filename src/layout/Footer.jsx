@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className='container mx-auto'>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-5 lg:gap-10'>
                         <div className='flex flex-col gap-y-3'>
-                            <h2 className='text-[#f26200] text-2xl font-semibold font-mono'>रोहित जांगिड़_</h2>
+                            <h2 className='text-[#f26200] text-2xl font-semibold font-mono'>Rohit_</h2>
                             <div className='flex items-center gap-x-3'>
                                 <Link to="https://www.linkedin.com/in/rohit-jangid-984729225/" className='text-[#f26200]' target="_blank"> <LinkedInIcon /></Link>
                                 <Link to="https://github.com/Rohitjangid17" className='text-[#f26200]' target="_blank"> <GitHubIcon /></Link>
