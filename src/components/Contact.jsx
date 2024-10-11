@@ -8,7 +8,7 @@ const Contact = () => {
         >
             <div className='container mx-auto'>
                 <div className='flex flex-col gap-y-1'>
-                    <h2 className='text-[#757575] text-sm sm:text-base'>GET IN TOUCH</h2>
+                    <h2 className='text-[#757575] text-sm sm:text-base'>Quick Contact</h2>
                     <h2 className='text-[#f26200] text-[34px] sm:text-[44px] font-semibold'>Contact</h2>
                     <p className='text-black text-base'>
                         Need to get in touch? Drop me a message using the form below. Whether you have a project in mind, want to discuss potential collaborations, or simply want to say hello, I'm all ears. Looking forward to hearing from you!

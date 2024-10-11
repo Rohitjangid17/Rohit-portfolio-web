@@ -42,23 +42,23 @@ export const navLinks = [
     },
     {
         id: 2,
-        title: "About",
+        title: "About Me",
         path: "/about"
     },
     {
         id: 3,
-        title: "Work Experience",
+        title: "Experience",
         path: "/work"
     },
     {
         id: 4,
-        title: "Projects",
+        title: "My Projects",
         path: "/projects"
     },
     // {
     //     id: 5,
-    //     title: "Sketches",
-    //     path: "/sketches"
+    //     title: "Sketchbook",
+    //     path: "/Sketchbook"
     // },
     {
         id: 5,
@@ -354,7 +354,7 @@ export const experiences = [
         id: 1,
         image: cynosureLogo,
         title: "Cynosure Technologies Pvt Ltd",
-        designation: "Junior Frontend Developer",
+        designation: "Frontend Developer",
         location: "Jaipur",
         description: "",
         duration: "Oct 2023 - Present",
@@ -363,19 +363,19 @@ export const experiences = [
             {
                 id: 1,
                 title: "Improved User Interface",
-                description: "Redesigned the user interface for the main product, resulting in a 25% increase in user engagement.",
+                description: "Engineered dynamic web applications that prioritize performance and responsiveness, ensuring users have seamless interactions across all devices.",
                 experienceId: 1
             },
             {
                 id: 2,
                 title: "Optimized Web Performance",
-                description: "Implemented code optimizations and reduced page load time by 30%, enhancing overall user experience.",
+                description: "Revamped the main product's user interface, achieving a remarkable 25% boost in user engagement by focusing on user-centered design principles.",
                 experienceId: 1
             },
             {
                 id: 3,
                 title: "Developed New Features",
-                description: "Led the development of several new features for the Shopiana platform, increasing customer satisfaction.",
+                description: "Spearheaded feature development for the Shopiana platform, enhancing customer satisfaction through innovative solutions and efficient problem-solving.",
                 experienceId: 2
             },
             {
@@ -395,17 +395,17 @@ export const experiences = [
             {
                 id: 1,
                 title: "HR Management System",
-                description: "Test"
+                description: "Developed a comprehensive platform for managing employee data, performance tracking, and payroll, streamlining HR processes and improving operational efficiency."
             },
             {
                 id: 2,
                 title: "Timelabs Product Website",
-                description: "Test"
+                description: "Designed and implemented a responsive website to showcase Timelabs’ offerings, enhancing brand visibility and user engagement through intuitive navigation and engaging content."
             },
             {
                 id: 3,
                 title: "Cynosure Website",
-                description: "Test"
+                description: "Overhauled the company website to improve user experience and accessibility, integrating SEO best practices that boosted organic traffic and improved search engine rankings."
             },
         ]
     },
@@ -414,7 +414,7 @@ export const experiences = [
         image: shopianaLogo,
         title: "Shopiana",
         designation: "Frontend Developer",
-        description: "",
+        description: "As a Frontend Developer at Shopiana, I played a pivotal role in enhancing the user experience and overall functionality of the platform. I collaborated closely with cross-functional teams to develop high-quality web applications and drive user engagement.",
         duration: "Sept 2022 - Aug 2023",
         location: "Jaipur",
         employementType: "Full Time",
@@ -422,44 +422,34 @@ export const experiences = [
             {
                 id: 1,
                 title: "Improved User Interface",
-                description: "Redesigned the user interface for the main product, resulting in a 25% increase in user engagement.",
-                experienceId: 1
+                description: "Redesigned the user interface for the main product, resulting in a 25% increase in user engagement."
             },
             {
                 id: 2,
                 title: "Optimized Web Performance",
-                description: "Implemented code optimizations and reduced page load time by 30%, enhancing overall user experience.",
-                experienceId: 1
+                description: "Implemented code optimizations that reduced page load time by 30%, significantly enhancing the overall user experience."
             },
             {
                 id: 3,
                 title: "Developed New Features",
-                description: "Led the development of several new features for the Shopiana platform, increasing customer satisfaction.",
-                experienceId: 2
+                description: "Led the development of several new features for the Shopiana platform, contributing to increased customer satisfaction."
             },
             {
                 id: 4,
-                title: "Completed Internship Projects",
-                description: "Successfully completed a series of projects during the internship, contributing to the team's development goals.",
-                experienceId: 3
-            },
-            {
-                id: 5,
                 title: "Achieved High Code Quality",
-                description: "Maintained a high standard of code quality during the internship, leading to fewer bugs and improved maintainability.",
-                experienceId: 3
+                description: "Maintained a high standard of code quality, resulting in fewer bugs and improved maintainability of the codebase."
             }
         ],
         keyProjects: [
             {
                 id: 1,
                 title: "Shopiana - Admin Panel",
-                description: "Test"
+                description: "Developed an intuitive admin panel that streamlined management tasks, allowing administrators to efficiently oversee platform operations and user interactions."
             },
             {
                 id: 2,
                 title: "Amy Collections: Elevating Elegance Online",
-                description: "Test"
+                description: "Created a visually appealing and responsive e-commerce website for Amy Collections, enhancing brand visibility and improving the overall shopping experience for customers."
             }
         ]
     },
@@ -467,51 +457,47 @@ export const experiences = [
         id: 3,
         image: shopianaLogo,
         title: "Shopiana",
-        designation: "Traning / Internship",
-        description: "",
+        designation: "Training / Internship",
+        description: "During my internship at Shopiana, I gained hands-on experience in frontend development by collaborating with seasoned developers on various projects. I contributed to improving user interfaces and optimizing web applications, which enhanced my skills in real-world settings.",
         duration: "Jun 2022 - Aug 2022",
         location: "Jaipur",
         employementType: "Full Time",
         achievements: [
             {
                 id: 1,
-                title: "Improved User Interface",
-                description: "Redesigned the user interface for the main product, resulting in a 25% increase in user engagement.",
-                experienceId: 1
+                title: "Enhanced User Experience",
+                description: "Redesigned key components of the user interface, leading to a measurable increase in user engagement and satisfaction."
             },
             {
                 id: 2,
-                title: "Optimized Web Performance",
-                description: "Implemented code optimizations and reduced page load time by 30%, enhancing overall user experience.",
-                experienceId: 1
+                title: "Boosted Performance Metrics",
+                description: "Executed code optimizations that reduced page load times by 30%, contributing to a more efficient and enjoyable browsing experience."
             },
             {
                 id: 3,
-                title: "Developed New Features",
-                description: "Led the development of several new features for the Shopiana platform, increasing customer satisfaction.",
-                experienceId: 2
+                title: "Feature Development Initiative",
+                description: "Collaborated with the team to implement new features for the Shopiana platform, positively impacting user interactions."
             },
             {
                 id: 4,
-                title: "Completed Internship Projects",
-                description: "Successfully completed a series of projects during the internship, contributing to the team's development goals.",
-                experienceId: 3
+                title: "Project Contributions",
+                description: "Successfully completed several projects, providing valuable insights and assistance to the development team."
             },
             {
                 id: 5,
-                title: "Achieved High Code Quality",
-                description: "Maintained a high standard of code quality during the internship, leading to fewer bugs and improved maintainability.",
-                experienceId: 3
+                title: "Code Quality Improvement",
+                description: "Maintained rigorous code quality standards throughout the internship, which minimized bugs and enhanced the overall maintainability of the codebase."
             }
         ],
         keyProjects: [
             {
                 id: 1,
                 title: "Shopiana Website",
-                description: "Test"
+                description: "Assisted in the development of the Shopiana website, focusing on responsive design and user-friendly features to improve customer engagement."
             }
         ]
-    },
+    }
+
 ]
 
 export const testimonials = [
